@@ -1,0 +1,790 @@
+Capturing output to logs/install-20190523-190553.log
+Installation started at 2019-05-23 19:05:53
+Installing release 'open-release/hawthorn.2'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python-software-properties is already the newest version (0.96.20.8).
+The following packages were automatically installed and are no longer required:
+  libdbusmenu-gtk4 libpango1.0-0 libpangox-1.0-0 ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 59 not upgraded.
+gpg: keyring `/tmp/tmpyfg6ju3b/secring.gpg' created
+gpg: keyring `/tmp/tmpyfg6ju3b/pubring.gpg' created
+gpg: requesting key BA9EF27F from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpyfg6ju3b/trustdb.gpg: trustdb created
+gpg: key BA9EF27F: public key "Launchpad Toolchain builds" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+Hit:1 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Hit:3 http://ppa.launchpad.net/git-core/ppa/ubuntu xenial InRelease
+Hit:4 http://nginx.org/packages/ubuntu xenial InRelease
+Get:5 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Hit:6 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial InRelease
+Hit:7 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:8 http://ppa.edx.org xenial InRelease
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [957 kB]
+Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [824 kB]
+Fetched 1,999 kB in 16s (121 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  libdbusmenu-gtk4 libpango1.0-0 libpangox-1.0-0 ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following packages have been kept back:
+  cpp-5 cups-filters cups-filters-core-drivers g++-5 gcc-5 gcc-5-base
+  gcc-6-base gir1.2-javascriptcoregtk-4.0 gir1.2-webkit2-4.0 gnome-software
+  gnome-software-common libasan2 libatomic1 libcc1-0 libcilkrts5
+  libdrm-amdgpu1 libdrm2 libegl1-mesa libgbm1 libgcc-5-dev libgcc1
+  libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libgomp1 libinput10 libitm1
+  libjavascriptcoregtk-4.0-18 liblsan0 libmirclient9 libmm-glib0 libmpx0
+  liboxideqt-qmlplugin liboxideqtcore0 liboxideqtquick0 libqmi-proxy
+  libquadmath0 libstdc++-5-dev libstdc++6 libtsan0 libubsan0
+  libwayland-egl1-mesa libwebkit2gtk-4.0-37 libwebkit2gtk-4.0-37-gtk2
+  libxatracker2 linux-generic linux-headers-generic linux-image-generic
+  modemmanager oxideqt-codecs qml-module-ubuntu-web qpdf shotwell
+  shotwell-common ubuntu-minimal ubuntu-software unity-control-center
+  webapp-container webbrowser-app
+0 upgraded, 0 newly installed, 0 to remove and 59 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version (12.1ubuntu2).
+g++ is already the newest version (4:5.3.1-1ubuntu1).
+gcc is already the newest version (4:5.3.1-1ubuntu1).
+libxmlsec1-dev is already the newest version (1.2.20-2ubuntu4).
+swig is already the newest version (3.0.8-0ubuntu3).
+curl is already the newest version (7.47.0-1ubuntu2.13).
+libfreetype6-dev is already the newest version (2.6.1-0.1ubuntu2.3).
+libmysqlclient-dev is already the newest version (5.7.26-0ubuntu0.16.04.1).
+libxml2-dev is already the newest version (2.9.3+dfsg1-1ubuntu0.6).
+libxslt1-dev is already the newest version (1.1.28-2.1ubuntu0.2).
+python-apt is already the newest version (1.1.0~beta1ubuntu0.16.04.4).
+python-dev is already the newest version (2.7.12-1~16.04).
+software-properties-common is already the newest version (0.96.20.8).
+python-pip is already the newest version (8.1.1-2ubuntu0.4).
+git-core is already the newest version (1:2.14.2-1~ppa0~ubuntu16.04.1).
+The following packages were automatically installed and are no longer required:
+  libdbusmenu-gtk4 libpango1.0-0 libpangox-1.0-0 ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 59 not upgraded.
+The directory '/home/aditya/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/aditya/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already up-to-date: pip==9.0.3 in /usr/local/lib/python2.7/dist-packages
+You are using pip version 9.0.3, however version 19.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+The directory '/home/aditya/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/aditya/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already up-to-date: setuptools==39.0.1 in /usr/local/lib/python2.7/dist-packages
+You are using pip version 9.0.3, however version 19.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already up-to-date: virtualenv==15.2.0 in /usr/local/lib/python2.7/dist-packages
+You are using pip version 9.0.3, however version 19.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+fatal: destination path 'configuration' already exists and is not an empty directory.
+HEAD is now at 3a8161ac2 Merge pull request #4722 from edx/mulby/hawthorn/fix-ace-defaults
+M	playbooks/roles/common_vars/defaults/main.yml
+M	playbooks/roles/mongo_3_2/defaults/main.yml
+From https://github.com/edx/configuration
+ * [new branch]          jdmulloy/fix_git_ssh_ansible_2.5 -> origin/jdmulloy/fix_git_ssh_ansible_2.5
+ * [new branch]          jkantor/program-manager -> origin/jkantor/program-manager
+ * [new branch]          kdmccormick/registrar-newrelic-fix -> origin/kdmccormick/registrar-newrelic-fix
+   5a345698b..9fa08eaf7  master                  -> origin/master
+   8f8ec7ca9..c56b45174  yonkers-sandbox         -> origin/yonkers-sandbox
+You are not currently on a branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+Requirement already satisfied: ansible==2.3.1.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 7))
+Requirement already satisfied: asn1crypto==0.24.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 8))
+Requirement already satisfied: awscli==1.15.19 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 9))
+Requirement already satisfied: bcrypt==3.1.4 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 10))
+Requirement already satisfied: boto3==1.7.14 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 11))
+Requirement already satisfied: boto==2.48.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 12))
+Requirement already satisfied: botocore==1.10.19 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 13))
+Requirement already satisfied: certifi==2018.4.16 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 14))
+Requirement already satisfied: cffi==1.11.5 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 15))
+Requirement already satisfied: chardet==3.0.4 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 16))
+Requirement already satisfied: colorama==0.3.7 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 17))
+Requirement already satisfied: cryptography==2.2.2 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 18))
+Requirement already satisfied: datadog==0.8.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 19))
+Requirement already satisfied: decorator==4.3.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 20))
+Requirement already satisfied: docopt==0.6.2 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 21))
+Requirement already satisfied: docutils==0.14 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 22))
+Requirement already satisfied: ecdsa==0.13 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 23))
+Requirement already satisfied: enum34==1.1.6 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 24))
+Requirement already satisfied: futures==3.2.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 25))
+Requirement already satisfied: idna==2.6 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 26))
+Requirement already satisfied: ipaddress==1.0.22 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 27))
+Requirement already satisfied: jinja2==2.8 in /usr/lib/python2.7/dist-packages (from -r requirements.txt (line 28))
+Requirement already satisfied: jmespath==0.9.3 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 29))
+Requirement already satisfied: markupsafe==1.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 30))
+Requirement already satisfied: mysql-python==1.2.5 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 31))
+Requirement already satisfied: networkx==1.11 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 32))
+Requirement already satisfied: paramiko==2.4.1 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 33))
+Requirement already satisfied: pathlib2==2.3.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 34))
+Requirement already satisfied: prettytable==0.7.2 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 35))
+Requirement already satisfied: pyasn1==0.4.2 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 36))
+Requirement already satisfied: pycparser==2.18 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 37))
+Requirement already satisfied: pycrypto==2.6.1 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 38))
+Requirement already satisfied: pymongo==3.2.2 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 39))
+Requirement already satisfied: pynacl==1.2.1 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 40))
+Requirement already satisfied: python-dateutil==2.7.3 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 41))
+Requirement already satisfied: python-simple-hipchat==0.2 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 42))
+Requirement already satisfied: pyyaml==3.12 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 43))
+Requirement already satisfied: requests==2.18.4 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 44))
+Requirement already satisfied: rsa==3.4.2 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 45))
+Requirement already satisfied: s3transfer==0.1.13 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 46))
+Requirement already satisfied: scandir==1.7 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 47))
+Requirement already satisfied: simplejson==3.15.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 48))
+Requirement already satisfied: six==1.11.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 49))
+Requirement already satisfied: urllib3==1.22 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 50))
+Requirement already satisfied: wsgiref==0.1.2 in /usr/lib/python2.7 (from -r requirements.txt (line 51))
+Requirement already satisfied: docker-compose==1.9.0 in /usr/local/lib/python2.7/dist-packages (from -r requirements.txt (line 53))
+Requirement already satisfied: setuptools in /usr/local/lib/python2.7/dist-packages (from ansible==2.3.1.0->-r requirements.txt (line 7))
+Requirement already satisfied: websocket-client<1.0,>=0.32.0 in /usr/local/lib/python2.7/dist-packages (from docker-compose==1.9.0->-r requirements.txt (line 53))
+Requirement already satisfied: dockerpty<0.5,>=0.4.1 in /usr/local/lib/python2.7/dist-packages (from docker-compose==1.9.0->-r requirements.txt (line 53))
+Requirement already satisfied: docker-py<2.0,>=1.10.6 in /usr/local/lib/python2.7/dist-packages (from docker-compose==1.9.0->-r requirements.txt (line 53))
+Requirement already satisfied: texttable<0.9,>=0.8.1 in /usr/local/lib/python2.7/dist-packages (from docker-compose==1.9.0->-r requirements.txt (line 53))
+Requirement already satisfied: cached-property<2,>=1.2.0 in /usr/local/lib/python2.7/dist-packages (from docker-compose==1.9.0->-r requirements.txt (line 53))
+Requirement already satisfied: jsonschema<3,>=2.5.1 in /usr/local/lib/python2.7/dist-packages (from docker-compose==1.9.0->-r requirements.txt (line 53))
+Requirement already satisfied: backports.ssl-match-hostname>=3.5; python_version < "3.5" in /usr/local/lib/python2.7/dist-packages (from docker-py<2.0,>=1.10.6->docker-compose==1.9.0->-r requirements.txt (line 53))
+Requirement already satisfied: docker-pycreds>=0.2.1 in /usr/local/lib/python2.7/dist-packages (from docker-py<2.0,>=1.10.6->docker-compose==1.9.0->-r requirements.txt (line 53))
+Requirement already satisfied: functools32; python_version == "2.7" in /usr/local/lib/python2.7/dist-packages (from jsonschema<3,>=2.5.1->docker-compose==1.9.0->-r requirements.txt (line 53))
+You are using pip version 9.0.3, however version 19.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ [WARNING]: While constructing a mapping from
+/var/tmp/configuration/playbooks/roles/forum/defaults/main.yml, line 75, column 3, found a duplicate
+dict key (RACK_ENV). Using last defined value only.
+ [WARNING]: While constructing a mapping from
+/var/tmp/configuration/playbooks/roles/forum/defaults/main.yml, line 75, column 3, found a duplicate
+dict key (SINATRA_ENV). Using last defined value only.
+ [WARNING]: While constructing a mapping from
+/var/tmp/configuration/playbooks/roles/forum/defaults/main.yml, line 75, column 3, found a duplicate
+dict key (SEARCH_SERVER). Using last defined value only.
+ [WARNING]: While constructing a mapping from
+/var/tmp/configuration/playbooks/roles/forum/defaults/main.yml, line 75, column 3, found a duplicate
+dict key (MONGOHQ_URL). Using last defined value only.
+
+PLAY [Bootstrap instance(s)] ****************************************************************************
+
+TASK [python : Update apt-get] **************************************************************************
+changed: [localhost]
+
+TASK [python : Install packages] ************************************************************************
+changed: [localhost] => (item=python-minimal)
+
+PLAY [Configure instance(s)] ****************************************************************************
+
+TASK [Gathering Facts] **********************************************************************************
+ok: [localhost]
+
+TASK [swapfile : Write swapfile] ************************************************************************
+ok: [localhost]
+
+TASK [swapfile : Set swapfile permissions] **************************************************************
+ok: [localhost]
+
+TASK [swapfile : Create swapfile] ***********************************************************************
+skipping: [localhost]
+
+TASK [swapfile : Enable swapfile] ***********************************************************************
+skipping: [localhost]
+
+TASK [swapfile : Add swapfile to /etc/fstab] ************************************************************
+ok: [localhost]
+
+TASK [swapfile : Configure vm.swappiness] ***************************************************************
+skipping: [localhost]
+
+TASK [swapfile : Configure vm.vfs_cache_pressure] *******************************************************
+skipping: [localhost]
+
+TASK [server_utils : Check for expired edx key] *********************************************************
+changed: [localhost]
+
+TASK [server_utils : remove expired edx key] ************************************************************
+skipping: [localhost]
+
+TASK [server_utils : Install ubuntu system packages] ****************************************************
+ok: [localhost] => (item=[u'ack-grep', u'mosh', u'tree', u'screen', u'tmux', u'curl', u'vim', u'dnsutils', u'inetutils-telnet', u'netcat'])
+
+TASK [user : Install debian packages user role needs] ***************************************************
+ok: [localhost] => (item=[u'python-httplib2'])
+
+TASK [user : debug] *************************************************************************************
+ok: [localhost] => {
+    "user_info": []
+}
+
+TASK [user : Create the edxadmin group] *****************************************************************
+ok: [localhost]
+
+TASK [user : Ensure sudoers.d is read] ******************************************************************
+ok: [localhost]
+
+TASK [user : Grant full sudo access to the edxadmin group] **********************************************
+ok: [localhost]
+
+TASK [user : Create the users] **************************************************************************
+
+TASK [user : Assign admin role to admin users] **********************************************************
+
+TASK [user : Check the ssh key(s) for user(s) over github] **********************************************
+
+TASK [user : Print warning if github user(s) missing ssh key] *******************************************
+
+TASK [user : Halt if USER_FAIL_MISSING_KEYS is true and github user(s) missing ssh key] *****************
+
+TASK [user : Get github key(s) and update the authorized_keys file] *************************************
+
+TASK [user : Create bashrc file for normal users] *******************************************************
+
+TASK [user : Create .profile for all users] *************************************************************
+
+TASK [user : Modify shell for restricted users] *********************************************************
+
+TASK [user : Create bashrc file for restricted users] ***************************************************
+
+TASK [user : Create sudoers file from template] *********************************************************
+ok: [localhost]
+
+TASK [user : Change home directory ownership to root for restricted users] ******************************
+
+TASK [user : Create ~/bin directory] ********************************************************************
+
+TASK [user : Create allowed command links] **************************************************************
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure periodic unattended-upgrades] ************************************************
+skipping: [localhost]
+
+TASK [security : Disable unattended-upgrades if Xenial (16.04)] *****************************************
+skipping: [localhost] => (item=systemctl disable apt-daily.service) 
+skipping: [localhost] => (item=systemctl disable apt-daily.timer) 
+skipping: [localhost] => (item=systemctl disable apt-daily-upgrade.timer) 
+
+TASK [security : Disable unattended-upgrades] ***********************************************************
+skipping: [localhost]
+
+TASK [security : Only unattended-upgrade from security repo] ********************************************
+skipping: [localhost]
+
+TASK [security : Disable security only updates on unattended-upgrades] **********************************
+skipping: [localhost]
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=unattended-upgrade --dry-run) 
+skipping: [localhost] => (item=unattended-upgrade) 
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Enable automatic start for update service] *********************************************
+skipping: [localhost]
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure security auto-updates] *******************************************************
+skipping: [localhost] => (item={u'regexp': u'^update_cmd', u'line': u'update_cmd = security'}) 
+skipping: [localhost] => (item={u'regexp': u'^apply_updates', u'line': u'apply_updates = yes'}) 
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=yum check-update --security) 
+skipping: [localhost] => (item=yum update --security -y) 
+
+TASK [common : Check Configuration Sources] *************************************************************
+
+TASK [common : stat] ************************************************************************************
+ok: [localhost]
+
+TASK [common : Update CA Certificates] ******************************************************************
+changed: [localhost]
+
+TASK [common : stat] ************************************************************************************
+ok: [localhost]
+
+TASK [common : Update CA Trust] *************************************************************************
+skipping: [localhost]
+
+TASK [common : Add common_users] ************************************************************************
+ok: [localhost] => (item=www-data)
+ok: [localhost] => (item=syslog)
+
+TASK [common : check if instance is vagrant] ************************************************************
+ok: [localhost]
+
+TASK [common : Add git apt repository] ******************************************************************
+ok: [localhost]
+
+TASK [common : Add edX PPA apt key] *********************************************************************
+ok: [localhost]
+
+TASK [common : Add custom edX PPA] **********************************************************************
+ok: [localhost]
+
+TASK [common : Install role-independent useful system packages] *****************************************
+ok: [localhost] => (item=[u'apt-transport-https', u'ntp', u'acl', u'iotop', u'lynx-cur', u'logrotate', u'rsyslog', u'git', u'unzip', u'python-pip', u'python2.7-dev'])
+
+TASK [common : Install role-independent useful system packages from custom PPA] *************************
+skipping: [localhost] => (item=[]) 
+
+TASK [common : Install role-independent useful system packages] *****************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [common : Create common directories] ***************************************************************
+ok: [localhost] => (item={u'path': u'/edx/var'})
+ok: [localhost] => (item={u'path': u'/edx/app'})
+ok: [localhost] => (item={u'path': u'/edx/bin'})
+ok: [localhost] => (item={u'path': u'/edx/etc'})
+ok: [localhost] => (item={u'owner': u'syslog', u'path': u'/edx/var/log', u'group': u'syslog'})
+ok: [localhost] => (item={u'path': u'/etc/logrotate.d/hourly'})
+ok: [localhost] => (item={u'path': u'/etc/rsyslog.d/50-default.conf', u'state': u'absent'})
+
+TASK [common : upload sudo config for key forwarding as root] *******************************************
+ok: [localhost]
+
+TASK [common : pip install virtualenv] ******************************************************************
+ok: [localhost] => (item=pip==9.0.3)
+ok: [localhost] => (item=setuptools==39.0.1)
+ok: [localhost] => (item=virtualenv==15.2.0)
+ok: [localhost] => (item=virtualenvwrapper==4.8.2)
+
+TASK [common : update /etc/hosts] ***********************************************************************
+skipping: [localhost]
+
+TASK [common : update /etc/hostname] ********************************************************************
+skipping: [localhost]
+
+TASK [common : run hostname] ****************************************************************************
+skipping: [localhost]
+
+TASK [common : Copy the templates to their respestive destination] **************************************
+ok: [localhost] => (item={u'dest': u'/etc/rsyslog.d/99-edx.conf', u'src': u'edx_rsyslog.j2'})
+ok: [localhost] => (item={u'dest': u'/etc/logrotate.d/hourly/edx-services', u'src': u'etc/logrotate.d/hourly/edx_logrotate.j2'})
+ok: [localhost] => (item={u'dest': u'/etc/cron.hourly/logrotate', u'src': u'etc/cron.hourly/logrotate.j2', u'mode': u'0555'})
+ok: [localhost] => (item={u'dest': u'/etc/logrotate.d/hourly/tracking.log', u'src': u'etc/logrotate.d/hourly/edx_logrotate_tracking_log.j2'})
+
+TASK [common : restart rsyslogd] ************************************************************************
+skipping: [localhost]
+
+TASK [common : Add ntp alert script] ********************************************************************
+ok: [localhost]
+
+TASK [common : Remove MOTD update checker] **************************************************************
+ok: [localhost]
+
+TASK [common : Set up a cron job to run the log-ntp-alerts script] **************************************
+ok: [localhost]
+
+TASK [common : install logrotate configuration] *********************************************************
+ok: [localhost]
+
+TASK [nginx : Create Diffie-Hellman parameters to prevent weak key exchange] ****************************
+ok: [localhost]
+
+TASK [nginx : Restrict permissions of DH parameters file] ***********************************************
+ok: [localhost]
+
+TASK [nginx : Create nginx app and data dirs] ***********************************************************
+ok: [localhost] => (item={u'owner': u'root', u'path': u'/edx/app/nginx', u'group': u'www-data'})
+ok: [localhost] => (item={u'owner': u'root', u'path': u'/edx/app/nginx/sites-available', u'group': u'www-data'})
+ok: [localhost] => (item={u'owner': u'root', u'path': u'/etc/nginx/sites-enabled', u'group': u'www-data'})
+ok: [localhost] => (item={u'owner': u'root', u'path': u'/edx/app/nginx/conf.d', u'group': u'www-data'})
+ok: [localhost] => (item={u'owner': u'www-data', u'path': u'/edx/var/nginx', u'group': u'root'})
+changed: [localhost] => (item={u'owner': u'www-data', u'path': u'/edx/var/log/nginx', u'group': u'root'})
+ok: [localhost] => (item={u'owner': u'www-data', u'path': u'/edx/var/nginx/server-static', u'group': u'root'})
+
+TASK [nginx : Install needed packages] ******************************************************************
+ok: [localhost] => (item=[u'python-passlib'])
+
+TASK [nginx : Add apt key] ******************************************************************************
+ok: [localhost]
+
+TASK [nginx : Add nginx repository] *********************************************************************
+ok: [localhost]
+
+TASK [nginx : Remove old nginx packages] ****************************************************************
+ok: [localhost]
+
+TASK [nginx : Install the nginx package] ****************************************************************
+ok: [localhost]
+
+TASK [nginx : Remove the default site] ******************************************************************
+ok: [localhost]
+
+TASK [nginx : Define server configuration file and common nginx configuration] **************************
+ok: [localhost] => (item={u'dest': u'/etc/nginx/nginx.conf', u'src': u'etc/nginx/nginx.conf.j2', u'group': u'www-data', u'mode': u'0644'})
+ok: [localhost] => (item={u'dest': u'/edx/app/nginx/sites-available/maps', u'src': u'edx/app/nginx/sites-available/maps.j2', u'group': u'root', u'mode': u'0600'})
+
+TASK [nginx : Create robot rules] ***********************************************************************
+skipping: [localhost]
+
+TASK [nginx : Creating link for common nginx configuration] *********************************************
+ok: [localhost] => (item=maps)
+
+TASK [nginx : Copying nginx configs for [u'certs', u'cms', u'lms', u'forum', u'xqueue']] ****************
+ok: [localhost] => (item=certs)
+ok: [localhost] => (item=cms)
+ok: [localhost] => (item=lms)
+ok: [localhost] => (item=forum)
+ok: [localhost] => (item=xqueue)
+
+TASK [nginx : Creating nginx config links for [u'certs', u'cms', u'lms', u'forum', u'xqueue']] **********
+ok: [localhost] => (item=certs)
+ok: [localhost] => (item=cms)
+ok: [localhost] => (item=lms)
+ok: [localhost] => (item=forum)
+ok: [localhost] => (item=xqueue)
+
+TASK [nginx : Copying nginx extra configs] **************************************************************
+
+TASK [nginx : Creating links for nginx extra configs] ***************************************************
+
+TASK [nginx : Copying custom nginx config] **************************************************************
+
+TASK [nginx : Copying nginx redirect configs for {}] ****************************************************
+
+TASK [nginx : Creating nginx redirect links for {}] *****************************************************
+
+TASK [nginx : Create NGINX server templates] ************************************************************
+ok: [localhost] => (item={u'lang': u'en', u'img': u'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Pendleton_Sinking_Ship.jpg/640px-Pendleton_Sinking_Ship.jpg', u'title': u'Rate limit exceeded', u'style_p': u'font-family: Georgia,Cambria,"Times New Roman",Times,serif; margin: auto; margin-bottom: 1em; font-weight: 200; line-height: 1.4em; font-size: 1.1em; max-width: 80%;', u'style_div': u'margin: auto; width: 800px; text-align: center; padding:20px 0px 0px 0px;', u'img_alt': u'', u'heading': u'Uh oh, we are having some server issues..', u'file': u'rate-limit.html', u'msg': u'If think you have encountered this message in error please let us know at <a href="mailto:technical@example.com">technical@example.com</a>', u'style_h1': u'font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; margin-bottom: .3em; font-size: 2.0em; line-height: 1.25em; text-rendering: optimizeLegibility; font-weight: bold; color: #000000;', u'style_p_h2': u'font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; margin-bottom: .3em; line-height: 1.25em; text-rendering: optimizeLegibility; font-weight: bold; font-size: 1.8em; color: #5b5e63;'})
+ok: [localhost] => (item={u'lang': u'en', u'img': u'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Pendleton_Sinking_Ship.jpg/640px-Pendleton_Sinking_Ship.jpg', u'title': u'Server error', u'style_p': u'font-family: Georgia,Cambria,"Times New Roman",Times,serif; margin: auto; margin-bottom: 1em; font-weight: 200; line-height: 1.4em; font-size: 1.1em; max-width: 80%;', u'style_div': u'margin: auto; width: 800px; text-align: center; padding:20px 0px 0px 0px;', u'img_alt': u'', u'heading': u'Uh oh, we are having some server issues..', u'file': u'server-error.html', u'msg': u'We have been notified of the error, if it persists please let us know at <a href="mailto:technical@example.com">technical@example.com</a>', u'style_h1': u'font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; margin-bottom: .3em; font-size: 2.0em; line-height: 1.25em; text-rendering: optimizeLegibility; font-weight: bold; color: #000000;', u'style_p_h2': u'font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; margin-bottom: .3em; line-height: 1.25em; text-rendering: optimizeLegibility; font-weight: bold; font-size: 1.8em; color: #5b5e63;'})
+
+TASK [nginx : Write out htpasswd file] ******************************************************************
+ [WARNING]: when statements should not include jinja2 templating delimiters such as {{ }} or {% %}.
+Found: {{   CERTS_ENABLE_BASIC_AUTH|bool or   ECOMMERCE_ENABLE_BASIC_AUTH|bool or
+EDXAPP_CMS_ENABLE_BASIC_AUTH|bool or   EDXAPP_LMS_ENABLE_BASIC_AUTH|bool or
+EDXAPP_LMS_PREVIEW_ENABLE_BASIC_AUTH|bool or   KIBANA_ENABLE_BASIC_AUTH|bool or
+XQUEUE_ENABLE_BASIC_AUTH|bool or   XSERVER_ENABLE_BASIC_AUTH|bool }}
+skipping: [localhost] => (item={u'state': u'present', u'password': u'nbec39zpYFeMFT1n7ObSu8GUHb9OTR1GdTz', u'name': u'CXTsbKR2f1PWWNdmwQLcbjerPOUqORDR0bq'}) 
+
+TASK [nginx : Create nginx log file location (just in case)] ********************************************
+changed: [localhost]
+
+TASK [nginx : stat] *************************************************************************************
+ok: [localhost -> localhost]
+
+TASK [nginx : stat] *************************************************************************************
+ok: [localhost -> localhost]
+
+TASK [nginx : copy ssl cert] ****************************************************************************
+skipping: [localhost]
+
+TASK [nginx : copy ssl key] *****************************************************************************
+skipping: [localhost]
+
+TASK [nginx : Removing default nginx config and restart (enabled)] **************************************
+ok: [localhost]
+
+TASK [nginx : Set up nginx access log rotation] *********************************************************
+ok: [localhost]
+
+TASK [nginx : Set up nginx error log rotation] **********************************************************
+ok: [localhost]
+
+RUNNING HANDLER [nginx : restart nginx] *****************************************************************
+changed: [localhost]
+
+TASK [nginx : make sure nginx has started] **************************************************************
+ok: [localhost]
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure periodic unattended-upgrades] ************************************************
+skipping: [localhost]
+
+TASK [security : Disable unattended-upgrades if Xenial (16.04)] *****************************************
+skipping: [localhost] => (item=systemctl disable apt-daily.service) 
+skipping: [localhost] => (item=systemctl disable apt-daily.timer) 
+skipping: [localhost] => (item=systemctl disable apt-daily-upgrade.timer) 
+
+TASK [security : Disable unattended-upgrades] ***********************************************************
+skipping: [localhost]
+
+TASK [security : Only unattended-upgrade from security repo] ********************************************
+skipping: [localhost]
+
+TASK [security : Disable security only updates on unattended-upgrades] **********************************
+skipping: [localhost]
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=unattended-upgrade --dry-run) 
+skipping: [localhost] => (item=unattended-upgrade) 
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Enable automatic start for update service] *********************************************
+skipping: [localhost]
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure security auto-updates] *******************************************************
+skipping: [localhost] => (item={u'regexp': u'^update_cmd', u'line': u'update_cmd = security'}) 
+skipping: [localhost] => (item={u'regexp': u'^apply_updates', u'line': u'apply_updates = yes'}) 
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=yum check-update --security) 
+skipping: [localhost] => (item=yum update --security -y) 
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure periodic unattended-upgrades] ************************************************
+skipping: [localhost]
+
+TASK [security : Disable unattended-upgrades if Xenial (16.04)] *****************************************
+skipping: [localhost] => (item=systemctl disable apt-daily.service) 
+skipping: [localhost] => (item=systemctl disable apt-daily.timer) 
+skipping: [localhost] => (item=systemctl disable apt-daily-upgrade.timer) 
+
+TASK [security : Disable unattended-upgrades] ***********************************************************
+skipping: [localhost]
+
+TASK [security : Only unattended-upgrade from security repo] ********************************************
+skipping: [localhost]
+
+TASK [security : Disable security only updates on unattended-upgrades] **********************************
+skipping: [localhost]
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=unattended-upgrade --dry-run) 
+skipping: [localhost] => (item=unattended-upgrade) 
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Enable automatic start for update service] *********************************************
+skipping: [localhost]
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure security auto-updates] *******************************************************
+skipping: [localhost] => (item={u'regexp': u'^update_cmd', u'line': u'update_cmd = security'}) 
+skipping: [localhost] => (item={u'regexp': u'^apply_updates', u'line': u'apply_updates = yes'}) 
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=yum check-update --security) 
+skipping: [localhost] => (item=yum update --security -y) 
+
+TASK [mysql : Look for mysql 5.6] ***********************************************************************
+fatal: [localhost]: FAILED! => {"changed": false, "cmd": "dpkg -s mysql-server", "delta": "0:00:01.120906", "end": "2019-05-23 19:24:15.285823", "failed": true, "rc": 1, "start": "2019-05-23 19:24:14.164917", "stderr": "dpkg-query: package 'mysql-server' is not installed and no information is available\nUse dpkg --info (= dpkg-deb --info) to examine archive files,\nand dpkg --contents (= dpkg-deb --contents) to list their contents.", "stderr_lines": ["dpkg-query: package 'mysql-server' is not installed and no information is available", "Use dpkg --info (= dpkg-deb --info) to examine archive files,", "and dpkg --contents (= dpkg-deb --contents) to list their contents."], "stdout": "", "stdout_lines": []}
+...ignoring
+
+TASK [mysql : Important message] ************************************************************************
+skipping: [localhost]
+
+TASK [mysql : pause] ************************************************************************************
+skipping: [localhost]
+
+TASK [mysql : Stop mysql service] ***********************************************************************
+skipping: [localhost]
+
+TASK [mysql : Remove experimental apt repository] *******************************************************
+skipping: [localhost]
+
+TASK [mysql : Remove experimental version of mysql] *****************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [mysql : Install mysql-5.6 and dependencies] *******************************************************
+ok: [localhost] => (item=[u'mysql-server-5.6', u'python-mysqldb'])
+
+TASK [mysql : Start mysql] ******************************************************************************
+ok: [localhost]
+
+TASK [mysql : Ensure Anonymous user(s) does not exist] **************************************************
+ok: [localhost] => (item=localhost)
+ok: [localhost] => (item=aditya-VirtualBox)
+
+TASK [edxlocal : Install packages needed for single server] *********************************************
+ok: [localhost] => (item=[u'postfix', u'libjpeg-dev'])
+
+TASK [edxlocal : create databases] **********************************************************************
+ok: [localhost] => (item=ecommerce)
+ok: [localhost] => (item=dashboard)
+ok: [localhost] => (item=xqueue)
+ok: [localhost] => (item=edxapp)
+ok: [localhost] => (item=edxapp_csmh)
+skipping: [localhost] => (item=) 
+ok: [localhost] => (item=analytics-api)
+ok: [localhost] => (item=reports)
+skipping: [localhost] => (item=) 
+ok: [localhost] => (item=discovery)
+skipping: [localhost] => (item=) 
+skipping: [localhost] => (item=) 
+
+TASK [edxlocal : create database users] *****************************************************************
+ok: [localhost] => (item={u'db': u'ecommerce', u'user': u'ecomm001', u'pass': u'LoKgGLkZflaCWPs2ukfmCHXKqWAHLZfRrZR'})
+ok: [localhost] => (item={u'db': u'dashboard', u'user': u'rosencrantz', u'pass': u'1jpzIHGB4rvusph3HMZOheswqdvW7W3MQz7'})
+ok: [localhost] => (item={u'db': u'xqueue', u'user': u'xqueue001', u'pass': u'wl0FZ5Byr0MfxLP4RVAgP7yLnhL06axQnMK'})
+ok: [localhost] => (item={u'db': u'edxapp', u'user': u'edxapp001', u'pass': u'Oed7BfaGe9dlNuBKUltkYNNx9uFUpORKEVt'})
+ok: [localhost] => (item={u'db': u'edxapp_csmh', u'user': u'edxapp_cmsh001', u'pass': u'v6BAI20fcJaLATRCSN3GbJmvnmkEcqo9RKU'})
+skipping: [localhost] => (item={u'db': u'', u'user': u'', u'pass': u'JbHREx0A7mw6yQ9jYaeld6zxLjBgddQO7NW'}) 
+skipping: [localhost] => (item={u'db': u'', u'user': u'', u'pass': u'6SzmpNBX9XcIBWeakoEYvByBvdDwaRBNTyW'}) 
+skipping: [localhost] => (item={u'db': u'', u'user': u'', u'pass': u'FH367bNtlYbt9axNSWQrZmFuckU64yU45dL'}) 
+ok: [localhost] => (item={u'db': u'discovery', u'user': u'discov001', u'pass': u'iFD4lvMv1e2gZXLg92ggGDeh3l5FVUVKuvd'})
+skipping: [localhost] => (item={u'db': u'', u'user': u'journ001', u'pass': u'password'}) 
+skipping: [localhost] => (item={u'db': u'', u'user': u'', u'pass': u''}) 
+
+TASK [edxlocal : setup the migration db user] ***********************************************************
+ok: [localhost] => (item=ecommerce)
+ok: [localhost] => (item=dashboard)
+ok: [localhost] => (item=xqueue)
+ok: [localhost] => (item=edxapp)
+ok: [localhost] => (item=edxapp_csmh)
+skipping: [localhost] => (item=) 
+ok: [localhost] => (item=analytics-api)
+ok: [localhost] => (item=reports)
+skipping: [localhost] => (item=) 
+ok: [localhost] => (item=discovery)
+skipping: [localhost] => (item=) 
+skipping: [localhost] => (item=) 
+
+TASK [edxlocal : create api user for the analytics api] *************************************************
+ok: [localhost]
+
+TASK [edxlocal : create read-only reports user for the analytics-api] ***********************************
+ok: [localhost]
+
+TASK [edxlocal : create a database for the hive metastore] **********************************************
+skipping: [localhost]
+
+TASK [edxlocal : setup the edx-notes-api db user] *******************************************************
+skipping: [localhost]
+
+TASK [edxlocal : setup the read-only db user] ***********************************************************
+ok: [localhost]
+
+TASK [edxlocal : setup the admin db user] ***************************************************************
+ok: [localhost]
+
+TASK [memcache : Install memcached] *********************************************************************
+ok: [localhost]
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure periodic unattended-upgrades] ************************************************
+skipping: [localhost]
+
+TASK [security : Disable unattended-upgrades if Xenial (16.04)] *****************************************
+skipping: [localhost] => (item=systemctl disable apt-daily.service) 
+skipping: [localhost] => (item=systemctl disable apt-daily.timer) 
+skipping: [localhost] => (item=systemctl disable apt-daily-upgrade.timer) 
+
+TASK [security : Disable unattended-upgrades] ***********************************************************
+skipping: [localhost]
+
+TASK [security : Only unattended-upgrade from security repo] ********************************************
+skipping: [localhost]
+
+TASK [security : Disable security only updates on unattended-upgrades] **********************************
+skipping: [localhost]
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=unattended-upgrade --dry-run) 
+skipping: [localhost] => (item=unattended-upgrade) 
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Enable automatic start for update service] *********************************************
+skipping: [localhost]
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure security auto-updates] *******************************************************
+skipping: [localhost] => (item={u'regexp': u'^update_cmd', u'line': u'update_cmd = security'}) 
+skipping: [localhost] => (item={u'regexp': u'^apply_updates', u'line': u'apply_updates = yes'}) 
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=yum check-update --security) 
+skipping: [localhost] => (item=yum update --security -y) 
+
+TASK [mount_ebs : Unmount disk if fstype is wrong] ******************************************************
+
+TASK [mount_ebs : Check that we don't want to unmount disks to change fstype when UNMOUNT_DISKS is false] ***
+skipping: [localhost] => (item={u'uuid': u'a54a15d6-a952-42fe-927b-dab1f5840cb2', u'size_total': 14662287360, u'mount': u'/', u'size_available': 3993542656, u'fstype': u'ext4', u'device': u'/dev/sda1', u'options': u'rw,relatime,errors=remount-ro,data=ordered'}) 
+skipping: [localhost] => (item={u'uuid': u'2019-01-25-18-58-44-77', u'size_total': 58433536, u'mount': u'/media/aditya/VBox_GAs_5.2.26', u'size_available': 0, u'fstype': u'iso9660', u'device': u'/dev/sr0', u'options': u'ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,mode=0400,dmode=0500'}) 
+
+TASK [mount_ebs : Create filesystem] ********************************************************************
+
+TASK [mount_ebs : Unmount disks mounted to the wrong place] *********************************************
+skipping: [localhost] => (item={u'uuid': u'a54a15d6-a952-42fe-927b-dab1f5840cb2', u'size_total': 14662287360, u'mount': u'/', u'size_available': 3993542656, u'fstype': u'ext4', u'device': u'/dev/sda1', u'options': u'rw,relatime,errors=remount-ro,data=ordered'}) 
+skipping: [localhost] => (item={u'uuid': u'2019-01-25-18-58-44-77', u'size_total': 58433536, u'mount': u'/media/aditya/VBox_GAs_5.2.26', u'size_available': 0, u'fstype': u'iso9660', u'device': u'/dev/sr0', u'options': u'ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,mode=0400,dmode=0500'}) 
+
+TASK [mount_ebs : Check that we don't want to unmount disks to change mountpoint when UNMOUNT_DISKS is false] ***
+skipping: [localhost] => (item={u'uuid': u'a54a15d6-a952-42fe-927b-dab1f5840cb2', u'size_total': 14662287360, u'mount': u'/', u'size_available': 3993542656, u'fstype': u'ext4', u'device': u'/dev/sda1', u'options': u'rw,relatime,errors=remount-ro,data=ordered'}) 
+skipping: [localhost] => (item={u'uuid': u'2019-01-25-18-58-44-77', u'size_total': 58433536, u'mount': u'/media/aditya/VBox_GAs_5.2.26', u'size_available': 0, u'fstype': u'iso9660', u'device': u'/dev/sr0', u'options': u'ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,mode=0400,dmode=0500'}) 
+
+TASK [mount_ebs : Mount disks] **************************************************************************
+
+TASK [mongo_3_2 : Add disable transparent huge pages systemd service (http://docs.mongodb.org/manual/tutorial/transparent-huge-pages/)] ***
+ok: [localhost]
+
+TASK [mongo_3_2 : Enable/start disable transparent huge pages service (http://docs.mongodb.org/manual/tutorial/transparent-huge-pages/)] ***
+changed: [localhost]
+
+TASK [mongo_3_2 : install python pymongo for mongo_user ansible module] *********************************
+ok: [localhost]
+
+TASK [mongo_3_2 : add the mongodb signing key] **********************************************************
+fatal: [localhost]: FAILED! => {"changed": false, "cmd": "/usr/bin/apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927", "failed": true, "msg": "Error fetching key EA312927 from keyserver: hkp://keyserver.ubuntu.com:80", "rc": 2, "stderr": "gpg: requesting key EA312927 from hkp server keyserver.ubuntu.com\ngpg: no valid OpenPGP data found.\ngpg: Total number processed: 0\ngpg: keyserver communications error: keyserver unreachable\ngpg: keyserver communications error: public key not found\ngpg: keyserver receive failed: public key not found\n", "stderr_lines": ["gpg: requesting key EA312927 from hkp server keyserver.ubuntu.com", "gpg: no valid OpenPGP data found.", "gpg: Total number processed: 0", "gpg: keyserver communications error: keyserver unreachable", "gpg: keyserver communications error: public key not found", "gpg: keyserver receive failed: public key not found"], "stdout": "Executing: /tmp/tmp.BiX6T9IDwg/gpg.1.sh --keyserver\nhkp://keyserver.ubuntu.com:80\n--recv\nEA312927\n?: keyserver.ubuntu.com: Host not found\ngpgkeys: HTTP fetch error 7: couldn't connect: Connection timed out\n", "stdout_lines": ["Executing: /tmp/tmp.BiX6T9IDwg/gpg.1.sh --keyserver", "hkp://keyserver.ubuntu.com:80", "--recv", "EA312927", "?: keyserver.ubuntu.com: Host not found", "gpgkeys: HTTP fetch error 7: couldn't connect: Connection timed out"]}
+	to retry, use: --limit @/var/tmp/configuration/playbooks/edx_sandbox.retry
+
+PLAY RECAP **********************************************************************************************
+localhost                  : ok=69   changed=8    unreachable=0    failed=1   
+
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: pip install virtualenv --------------------------------------------------------- 72.67s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install the nginx package ------------------------------------------------------ 64.01s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Update apt-get ----------------------------------------------------------------- 61.51s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install packages --------------------------------------------------------------- 44.18s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install debian packages user role needs ---------------------------------------- 40.67s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Copying nginx configs for [u'certs', u'cms', u'lms', u'forum', u'xqueue'] ------ 38.57s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install ubuntu system packages ------------------------------------------------- 37.36s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install memcached -------------------------------------------------------------- 36.74s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install role-independent useful system packages [0] ---------------------------- 36.10s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Create nginx app and data dirs ------------------------------------------------- 30.02s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing:
+Playbook Configure instance(s) finished: 2019-05-23 13:57:04.388456, 169 total tasks.  0:15:52.787243 elapsed. 
+
+ 
+========================================
+Ansible failed!
+----------------------------------------
+If you need help, see https://open.edx.org/getting-help .
+When asking for help, please provide as much information as you can.
+These might be helpful:
+    Your log file is at logs/install-20190523-190553.log
+    Your environment:
+        VTE_VERSION=4205
+        OPENEDX_RELEASE=open-release/hawthorn.2
+========================================
+Installation finished at 2019-05-23 19:27:04

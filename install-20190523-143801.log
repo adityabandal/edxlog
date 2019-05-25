@@ -1,0 +1,1143 @@
+Capturing output to logs/install-20190525-143801.log
+Installation started at 2019-05-23 14:38:01
+Installing release 'open-release/hawthorn.2'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python-software-properties is already the newest version (0.96.20.8).
+The following packages were automatically installed and are no longer required:
+  libdbusmenu-gtk4 libpango1.0-0 libpangox-1.0-0 ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 47 not upgraded.
+gpg: keyring `/tmp/tmpca28ehdh/secring.gpg' created
+gpg: keyring `/tmp/tmpca28ehdh/pubring.gpg' created
+gpg: requesting key BA9EF27F from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpca28ehdh/trustdb.gpg: trustdb created
+gpg: key BA9EF27F: public key "Launchpad Toolchain builds" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Hit:2 http://ppa.launchpad.net/git-core/ppa/ubuntu xenial InRelease
+Hit:3 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Get:4 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial InRelease [17.5 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Hit:6 http://ppa.edx.org xenial InRelease
+Hit:7 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Get:8 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial/main amd64 Packages [85.6 kB]
+Get:9 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial/main i386 Packages [84.0 kB]
+Get:10 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial/main Translation-en [14.4 kB]
+Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [957 kB]
+Get:12 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [824 kB]
+Fetched 2,200 kB in 15s (145 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  libdbusmenu-gtk4 libpango1.0-0 libpangox-1.0-0 ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following packages have been kept back:
+  cpp-5 cups-filters cups-filters-core-drivers g++-5 gcc-5 gcc-5-base
+  gcc-6-base gir1.2-javascriptcoregtk-4.0 gir1.2-webkit2-4.0 gnome-software
+  gnome-software-common libasan2 libatomic1 libcc1-0 libcilkrts5
+  libdrm-amdgpu1 libdrm2 libegl1-mesa libgbm1 libgcc-5-dev libgcc1
+  libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libgomp1 libinput10 libitm1
+  libjavascriptcoregtk-4.0-18 liblsan0 libmirclient9 libmm-glib0 libmpx0
+  liboxideqt-qmlplugin liboxideqtcore0 liboxideqtquick0 libqmi-proxy
+  libquadmath0 libstdc++-5-dev libstdc++6 libtsan0 libubsan0
+  libwayland-egl1-mesa libwebkit2gtk-4.0-37 libwebkit2gtk-4.0-37-gtk2
+  libxatracker2 linux-generic linux-headers-generic linux-image-generic
+  modemmanager oxideqt-codecs qml-module-ubuntu-web qpdf shotwell
+  shotwell-common ubuntu-minimal ubuntu-software unity-control-center
+  webapp-container webbrowser-app
+The following packages will be upgraded:
+  curl gdb gdbserver libcurl3 libcurl3-gnutls python3-update-manager
+  resolvconf update-manager update-manager-core update-notifier
+  update-notifier-common
+11 upgraded, 0 newly installed, 0 to remove and 59 not upgraded.
+Need to get 4,881 kB of archives.
+After this operation, 3,575 kB of additional disk space will be used.
+Get:1 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial/main amd64 gdb amd64 8.2-0ubuntu1~16.04.1 [2,998 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 update-notifier amd64 3.168.10 [47.2 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 update-manager all 1:16.04.15 [544 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 update-manager-core all 1:16.04.15 [5,498 B]
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python3-update-manager all 1:16.04.15 [33.4 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 update-notifier-common all 3.168.10 [163 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 resolvconf all 1.78ubuntu7 [52.7 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 curl amd64 7.47.0-1ubuntu2.13 [139 kB]
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcurl3-gnutls amd64 7.47.0-1ubuntu2.13 [184 kB]
+Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcurl3 amd64 7.47.0-1ubuntu2.13 [186 kB]
+Get:11 http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial/main amd64 gdbserver amd64 8.2-0ubuntu1~16.04.1 [529 kB]
+Preconfiguring packages ...
+Fetched 4,881 kB in 17s (284 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 178883 files and directories currently installed.)
+Preparing to unpack .../update-notifier_3.168.10_amd64.deb ...
+Unpacking update-notifier (3.168.10) over (3.168) ...
+Preparing to unpack .../update-manager_1%3a16.04.15_all.deb ...
+Unpacking update-manager (1:16.04.15) over (1:16.04.3) ...
+Preparing to unpack .../update-manager-core_1%3a16.04.15_all.deb ...
+Unpacking update-manager-core (1:16.04.15) over (1:16.04.3) ...
+Preparing to unpack .../python3-update-manager_1%3a16.04.15_all.deb ...
+Unpacking python3-update-manager (1:16.04.15) over (1:16.04.3) ...
+Preparing to unpack .../update-notifier-common_3.168.10_all.deb ...
+Unpacking update-notifier-common (3.168.10) over (3.168) ...
+Preparing to unpack .../resolvconf_1.78ubuntu7_all.deb ...
+Unpacking resolvconf (1.78ubuntu7) over (1.78ubuntu6) ...
+Preparing to unpack .../curl_7.47.0-1ubuntu2.13_amd64.deb ...
+Unpacking curl (7.47.0-1ubuntu2.13) over (7.47.0-1ubuntu2.12) ...
+Preparing to unpack .../libcurl3-gnutls_7.47.0-1ubuntu2.13_amd64.deb ...
+Unpacking libcurl3-gnutls:amd64 (7.47.0-1ubuntu2.13) over (7.47.0-1ubuntu2.12) ...
+Preparing to unpack .../gdb_8.2-0ubuntu1~16.04.1_amd64.deb ...
+Unpacking gdb (8.2-0ubuntu1~16.04.1) over (7.11.1-0ubuntu1~16.5) ...
+Preparing to unpack .../gdbserver_8.2-0ubuntu1~16.04.1_amd64.deb ...
+Unpacking gdbserver (8.2-0ubuntu1~16.04.1) over (7.11.1-0ubuntu1~16.5) ...
+Preparing to unpack .../libcurl3_7.47.0-1ubuntu2.13_amd64.deb ...
+Unpacking libcurl3:amd64 (7.47.0-1ubuntu2.13) over (7.47.0-1ubuntu2.12) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1.1) ...
+Processing triggers for gconf2 (3.2.6-3ubuntu6) ...
+Processing triggers for libglib2.0-0:amd64 (2.48.2-0ubuntu4.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5.2) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20180209-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up python3-update-manager (1:16.04.15) ...
+Setting up update-manager-core (1:16.04.15) ...
+Setting up update-notifier-common (3.168.10) ...
+Setting up resolvconf (1.78ubuntu7) ...
+Setting up libcurl3-gnutls:amd64 (7.47.0-1ubuntu2.13) ...
+Setting up curl (7.47.0-1ubuntu2.13) ...
+Setting up gdb (8.2-0ubuntu1~16.04.1) ...
+Setting up gdbserver (8.2-0ubuntu1~16.04.1) ...
+Setting up libcurl3:amd64 (7.47.0-1ubuntu2.13) ...
+Setting up update-manager (1:16.04.15) ...
+Setting up update-notifier (3.168.10) ...
+Processing triggers for resolvconf (1.78ubuntu7) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version (12.1ubuntu2).
+g++ is already the newest version (4:5.3.1-1ubuntu1).
+g++ set to manually installed.
+gcc is already the newest version (4:5.3.1-1ubuntu1).
+gcc set to manually installed.
+curl is already the newest version (7.47.0-1ubuntu2.13).
+libmysqlclient-dev is already the newest version (5.7.26-0ubuntu0.16.04.1).
+python-apt is already the newest version (1.1.0~beta1ubuntu0.16.04.4).
+python-dev is already the newest version (2.7.12-1~16.04).
+python-dev set to manually installed.
+software-properties-common is already the newest version (0.96.20.8).
+python-pip is already the newest version (8.1.1-2ubuntu0.4).
+git-core is already the newest version (1:2.14.2-1~ppa0~ubuntu16.04.1).
+The following packages were automatically installed and are no longer required:
+  libdbusmenu-gtk4 libpango1.0-0 libpangox-1.0-0 ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  icu-devtools libgcrypt20-dev libgmp-dev libgmpxx4ldbl libgnutls-dev
+  libgnutlsxx28 libgpg-error-dev libicu-dev libidn11-dev libnspr4-dev
+  libnss3-dev libp11-kit-dev libpng12-dev libtasn1-6-dev libtasn1-doc
+  libxmlsec1 libxmlsec1-gcrypt libxmlsec1-gnutls libxmlsec1-nss
+  libxmlsec1-openssl nettle-dev swig3.0
+Suggested packages:
+  libgcrypt20-doc gmp-doc libgmp10-doc libmpfr-dev gnutls-doc gnutls-bin
+  guile-gnutls icu-doc swig-doc swig-examples swig3.0-examples swig3.0-doc
+The following NEW packages will be installed:
+  icu-devtools libfreetype6-dev libgcrypt20-dev libgmp-dev libgmpxx4ldbl
+  libgnutls-dev libgnutlsxx28 libgpg-error-dev libicu-dev libidn11-dev
+  libnspr4-dev libnss3-dev libp11-kit-dev libpng12-dev libtasn1-6-dev
+  libtasn1-doc libxml2-dev libxmlsec1 libxmlsec1-dev libxmlsec1-gcrypt
+  libxmlsec1-gnutls libxmlsec1-nss libxmlsec1-openssl libxslt1-dev nettle-dev
+  swig swig3.0
+0 upgraded, 27 newly installed, 0 to remove and 59 not upgraded.
+Need to get 16.7 MB of archives.
+After this operation, 78.6 MB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 icu-devtools amd64 55.1-7ubuntu0.4 [166 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpng12-dev amd64 1.2.54-1ubuntu1.1 [183 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libfreetype6-dev amd64 2.6.1-0.1ubuntu2.3 [956 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libgpg-error-dev amd64 1.21-2ubuntu1 [68.2 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgcrypt20-dev amd64 1.6.5-2ubuntu0.5 [380 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libgmpxx4ldbl amd64 2:6.1.0+dfsg-2 [8,948 B]
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libgmp-dev amd64 2:6.1.0+dfsg-2 [314 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgnutlsxx28 amd64 3.4.10-4ubuntu1.4 [13.7 kB]
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nettle-dev amd64 3.2-1ubuntu0.16.04.1 [939 kB]
+Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libtasn1-6-dev amd64 4.7-3ubuntu0.16.04.3 [85.9 kB]
+Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libp11-kit-dev amd64 0.23.2-5~ubuntu16.04.1 [56.5 kB]
+Get:12 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libidn11-dev amd64 1.32-3ubuntu1.2 [518 kB]
+Get:13 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgnutls-dev amd64 3.4.10-4ubuntu1.4 [551 kB]
+Get:14 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libicu-dev amd64 55.1-7ubuntu0.4 [8,566 kB]
+Get:15 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libnspr4-dev amd64 2:4.13.1-0ubuntu0.16.04.1 [213 kB]
+Get:16 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libnss3-dev amd64 2:3.28.4-0ubuntu0.16.04.5 [231 kB]
+Get:17 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxml2-dev amd64 2.9.3+dfsg1-1ubuntu0.6 [743 kB]
+Get:18 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libxmlsec1 amd64 1.2.20-2ubuntu4 [118 kB]
+Get:19 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libxmlsec1-openssl amd64 1.2.20-2ubuntu4 [65.0 kB]
+Get:20 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libxmlsec1-gcrypt amd64 1.2.20-2ubuntu4 [41.4 kB]
+Get:21 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libxmlsec1-gnutls amd64 1.2.20-2ubuntu4 [32.1 kB]
+Get:22 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libxmlsec1-nss amd64 1.2.20-2ubuntu4 [59.3 kB]
+Get:23 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxslt1-dev amd64 1.1.28-2.1ubuntu0.2 [407 kB]
+Get:24 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libxmlsec1-dev amd64 1.2.20-2ubuntu4 [650 kB]
+Get:25 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 swig3.0 amd64 3.0.8-0ubuntu3 [995 kB]
+Get:26 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 swig amd64 3.0.8-0ubuntu3 [6,278 B]
+Get:27 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libtasn1-doc all 4.7-3ubuntu0.16.04.3 [299 kB]
+Fetched 16.7 MB in 54s (304 kB/s)
+Selecting previously unselected package icu-devtools.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 178885 files and directories currently installed.)
+Preparing to unpack .../icu-devtools_55.1-7ubuntu0.4_amd64.deb ...
+Unpacking icu-devtools (55.1-7ubuntu0.4) ...
+Selecting previously unselected package libpng12-dev:amd64.
+Preparing to unpack .../libpng12-dev_1.2.54-1ubuntu1.1_amd64.deb ...
+Unpacking libpng12-dev:amd64 (1.2.54-1ubuntu1.1) ...
+Selecting previously unselected package libfreetype6-dev:amd64.
+Preparing to unpack .../libfreetype6-dev_2.6.1-0.1ubuntu2.3_amd64.deb ...
+Unpacking libfreetype6-dev:amd64 (2.6.1-0.1ubuntu2.3) ...
+Selecting previously unselected package libgpg-error-dev.
+Preparing to unpack .../libgpg-error-dev_1.21-2ubuntu1_amd64.deb ...
+Unpacking libgpg-error-dev (1.21-2ubuntu1) ...
+Selecting previously unselected package libgcrypt20-dev.
+Preparing to unpack .../libgcrypt20-dev_1.6.5-2ubuntu0.5_amd64.deb ...
+Unpacking libgcrypt20-dev (1.6.5-2ubuntu0.5) ...
+Selecting previously unselected package libgmpxx4ldbl:amd64.
+Preparing to unpack .../libgmpxx4ldbl_2%3a6.1.0+dfsg-2_amd64.deb ...
+Unpacking libgmpxx4ldbl:amd64 (2:6.1.0+dfsg-2) ...
+Selecting previously unselected package libgmp-dev:amd64.
+Preparing to unpack .../libgmp-dev_2%3a6.1.0+dfsg-2_amd64.deb ...
+Unpacking libgmp-dev:amd64 (2:6.1.0+dfsg-2) ...
+Selecting previously unselected package libgnutlsxx28:amd64.
+Preparing to unpack .../libgnutlsxx28_3.4.10-4ubuntu1.4_amd64.deb ...
+Unpacking libgnutlsxx28:amd64 (3.4.10-4ubuntu1.4) ...
+Selecting previously unselected package nettle-dev.
+Preparing to unpack .../nettle-dev_3.2-1ubuntu0.16.04.1_amd64.deb ...
+Unpacking nettle-dev (3.2-1ubuntu0.16.04.1) ...
+Selecting previously unselected package libtasn1-6-dev:amd64.
+Preparing to unpack .../libtasn1-6-dev_4.7-3ubuntu0.16.04.3_amd64.deb ...
+Unpacking libtasn1-6-dev:amd64 (4.7-3ubuntu0.16.04.3) ...
+Selecting previously unselected package libp11-kit-dev:amd64.
+Preparing to unpack .../libp11-kit-dev_0.23.2-5~ubuntu16.04.1_amd64.deb ...
+Unpacking libp11-kit-dev:amd64 (0.23.2-5~ubuntu16.04.1) ...
+Selecting previously unselected package libidn11-dev.
+Preparing to unpack .../libidn11-dev_1.32-3ubuntu1.2_amd64.deb ...
+Unpacking libidn11-dev (1.32-3ubuntu1.2) ...
+Selecting previously unselected package libgnutls-dev:amd64.
+Preparing to unpack .../libgnutls-dev_3.4.10-4ubuntu1.4_amd64.deb ...
+Unpacking libgnutls-dev:amd64 (3.4.10-4ubuntu1.4) ...
+Selecting previously unselected package libicu-dev:amd64.
+Preparing to unpack .../libicu-dev_55.1-7ubuntu0.4_amd64.deb ...
+Unpacking libicu-dev:amd64 (55.1-7ubuntu0.4) ...
+Selecting previously unselected package libnspr4-dev.
+Preparing to unpack .../libnspr4-dev_2%3a4.13.1-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking libnspr4-dev (2:4.13.1-0ubuntu0.16.04.1) ...
+Selecting previously unselected package libnss3-dev:amd64.
+Preparing to unpack .../libnss3-dev_2%3a3.28.4-0ubuntu0.16.04.5_amd64.deb ...
+Unpacking libnss3-dev:amd64 (2:3.28.4-0ubuntu0.16.04.5) ...
+Selecting previously unselected package libxml2-dev:amd64.
+Preparing to unpack .../libxml2-dev_2.9.3+dfsg1-1ubuntu0.6_amd64.deb ...
+Unpacking libxml2-dev:amd64 (2.9.3+dfsg1-1ubuntu0.6) ...
+Selecting previously unselected package libxmlsec1.
+Preparing to unpack .../libxmlsec1_1.2.20-2ubuntu4_amd64.deb ...
+Unpacking libxmlsec1 (1.2.20-2ubuntu4) ...
+Selecting previously unselected package libxmlsec1-openssl.
+Preparing to unpack .../libxmlsec1-openssl_1.2.20-2ubuntu4_amd64.deb ...
+Unpacking libxmlsec1-openssl (1.2.20-2ubuntu4) ...
+Selecting previously unselected package libxmlsec1-gcrypt.
+Preparing to unpack .../libxmlsec1-gcrypt_1.2.20-2ubuntu4_amd64.deb ...
+Unpacking libxmlsec1-gcrypt (1.2.20-2ubuntu4) ...
+Selecting previously unselected package libxmlsec1-gnutls.
+Preparing to unpack .../libxmlsec1-gnutls_1.2.20-2ubuntu4_amd64.deb ...
+Unpacking libxmlsec1-gnutls (1.2.20-2ubuntu4) ...
+Selecting previously unselected package libxmlsec1-nss.
+Preparing to unpack .../libxmlsec1-nss_1.2.20-2ubuntu4_amd64.deb ...
+Unpacking libxmlsec1-nss (1.2.20-2ubuntu4) ...
+Selecting previously unselected package libxslt1-dev:amd64.
+Preparing to unpack .../libxslt1-dev_1.1.28-2.1ubuntu0.2_amd64.deb ...
+Unpacking libxslt1-dev:amd64 (1.1.28-2.1ubuntu0.2) ...
+Selecting previously unselected package libxmlsec1-dev.
+Preparing to unpack .../libxmlsec1-dev_1.2.20-2ubuntu4_amd64.deb ...
+Unpacking libxmlsec1-dev (1.2.20-2ubuntu4) ...
+Selecting previously unselected package swig3.0.
+Preparing to unpack .../swig3.0_3.0.8-0ubuntu3_amd64.deb ...
+Unpacking swig3.0 (3.0.8-0ubuntu3) ...
+Selecting previously unselected package swig.
+Preparing to unpack .../swig_3.0.8-0ubuntu3_amd64.deb ...
+Unpacking swig (3.0.8-0ubuntu3) ...
+Selecting previously unselected package libtasn1-doc.
+Preparing to unpack .../libtasn1-doc_4.7-3ubuntu0.16.04.3_all.deb ...
+Unpacking libtasn1-doc (4.7-3ubuntu0.16.04.3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for doc-base (0.10.7) ...
+Processing 5 added doc-base files...
+Processing triggers for install-info (6.1.0.dfsg.1-5) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up icu-devtools (55.1-7ubuntu0.4) ...
+Setting up libpng12-dev:amd64 (1.2.54-1ubuntu1.1) ...
+Setting up libfreetype6-dev:amd64 (2.6.1-0.1ubuntu2.3) ...
+Setting up libgpg-error-dev (1.21-2ubuntu1) ...
+Setting up libgcrypt20-dev (1.6.5-2ubuntu0.5) ...
+Setting up libgmpxx4ldbl:amd64 (2:6.1.0+dfsg-2) ...
+Setting up libgmp-dev:amd64 (2:6.1.0+dfsg-2) ...
+Setting up libgnutlsxx28:amd64 (3.4.10-4ubuntu1.4) ...
+Setting up nettle-dev (3.2-1ubuntu0.16.04.1) ...
+Setting up libtasn1-6-dev:amd64 (4.7-3ubuntu0.16.04.3) ...
+Setting up libp11-kit-dev:amd64 (0.23.2-5~ubuntu16.04.1) ...
+Setting up libidn11-dev (1.32-3ubuntu1.2) ...
+Setting up libgnutls-dev:amd64 (3.4.10-4ubuntu1.4) ...
+Setting up libicu-dev:amd64 (55.1-7ubuntu0.4) ...
+Setting up libnspr4-dev (2:4.13.1-0ubuntu0.16.04.1) ...
+Setting up libnss3-dev:amd64 (2:3.28.4-0ubuntu0.16.04.5) ...
+Setting up libxml2-dev:amd64 (2.9.3+dfsg1-1ubuntu0.6) ...
+Setting up libxmlsec1 (1.2.20-2ubuntu4) ...
+Setting up libxmlsec1-openssl (1.2.20-2ubuntu4) ...
+Setting up libxmlsec1-gcrypt (1.2.20-2ubuntu4) ...
+Setting up libxmlsec1-gnutls (1.2.20-2ubuntu4) ...
+Setting up libxmlsec1-nss (1.2.20-2ubuntu4) ...
+Setting up libxslt1-dev:amd64 (1.1.28-2.1ubuntu0.2) ...
+Setting up libxmlsec1-dev (1.2.20-2ubuntu4) ...
+Setting up swig3.0 (3.0.8-0ubuntu3) ...
+Setting up swig (3.0.8-0ubuntu3) ...
+Setting up libtasn1-doc (4.7-3ubuntu0.16.04.3) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+The directory '/home/aditya/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/aditya/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already up-to-date: pip==9.0.3 in /usr/local/lib/python2.7/dist-packages
+You are using pip version 9.0.3, however version 19.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+The directory '/home/aditya/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/aditya/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already up-to-date: setuptools==39.0.1 in /usr/local/lib/python2.7/dist-packages
+You are using pip version 9.0.3, however version 19.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already up-to-date: virtualenv==15.2.0 in /usr/local/lib/python2.7/dist-packages
+You are using pip version 9.0.3, however version 19.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Cloning into 'configuration'...
+Note: checking out 'open-release/hawthorn.2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 3a8161ac2 Merge pull request #4722 from edx/mulby/hawthorn/fix-ace-defaults
+You are not currently on a branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+Collecting ansible==2.3.1.0 (from -r requirements.txt (line 7))
+  Downloading https://files.pythonhosted.org/packages/42/84/2a4a9274a8062684f71fbb75939d78c29829f81918a72bc94b5ccbd68950/ansible-2.3.1.0.tar.gz (4.3MB)
+Collecting asn1crypto==0.24.0 (from -r requirements.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/ea/cd/35485615f45f30a510576f1a56d1e0a7ad7bd8ab5ed7cdc600ef7cd06222/asn1crypto-0.24.0-py2.py3-none-any.whl (101kB)
+Collecting awscli==1.15.19 (from -r requirements.txt (line 9))
+  Downloading https://files.pythonhosted.org/packages/e7/c5/1b74f1c91a4cdd9a70300a6c8c8d0eb654fd3c2187f372ec994830e47b87/awscli-1.15.19-py2.py3-none-any.whl (1.3MB)
+Collecting bcrypt==3.1.4 (from -r requirements.txt (line 10))
+  Downloading https://files.pythonhosted.org/packages/2e/5a/2abeae20ce294fe6bf63da0e0b5a885c788e1360bbd124edcc0429678a59/bcrypt-3.1.4-cp27-cp27mu-manylinux1_x86_64.whl (57kB)
+Collecting boto3==1.7.14 (from -r requirements.txt (line 11))
+  Downloading https://files.pythonhosted.org/packages/f8/ed/8160213941beab9bf5c352d29111e2e0cd0e580a52e902bf3bef8559fa86/boto3-1.7.14-py2.py3-none-any.whl (128kB)
+Collecting boto==2.48.0 (from -r requirements.txt (line 12))
+  Downloading https://files.pythonhosted.org/packages/bd/b7/a88a67002b1185ed9a8e8a6ef15266728c2361fcb4f1d02ea331e4c7741d/boto-2.48.0-py2.py3-none-any.whl (1.4MB)
+Collecting botocore==1.10.19 (from -r requirements.txt (line 13))
+  Downloading https://files.pythonhosted.org/packages/34/05/1ffe77f2b8fb03a9223f3d0743cd38cded9491b074c65f3bb664ed4b7ac6/botocore-1.10.19-py2.py3-none-any.whl (4.2MB)
+Collecting certifi==2018.4.16 (from -r requirements.txt (line 14))
+  Downloading https://files.pythonhosted.org/packages/7c/e6/92ad559b7192d846975fc916b65f667c7b8c3a32bea7372340bfe9a15fa5/certifi-2018.4.16-py2.py3-none-any.whl (150kB)
+Collecting cffi==1.11.5 (from -r requirements.txt (line 15))
+  Downloading https://files.pythonhosted.org/packages/14/dd/3e7a1e1280e7d767bd3fa15791759c91ec19058ebe31217fe66f3e9a8c49/cffi-1.11.5-cp27-cp27mu-manylinux1_x86_64.whl (407kB)
+Collecting chardet==3.0.4 (from -r requirements.txt (line 16))
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+Collecting colorama==0.3.7 (from -r requirements.txt (line 17))
+  Downloading https://files.pythonhosted.org/packages/b7/8e/ddb32ddaabd431813e180ca224e844bab8ad42fbb47ee07553f0ec44cd86/colorama-0.3.7-py2.py3-none-any.whl
+Collecting cryptography==2.2.2 (from -r requirements.txt (line 18))
+  Downloading https://files.pythonhosted.org/packages/dd/c2/3a5bfefb25690725824ade71e6b65449f0a9f4b29702cce10560f786ebf6/cryptography-2.2.2-cp27-cp27mu-manylinux1_x86_64.whl (2.2MB)
+Collecting datadog==0.8.0 (from -r requirements.txt (line 19))
+  Downloading https://files.pythonhosted.org/packages/f7/1c/a099850614a70327fde1b04a9ac55e665dd4d5e5ab6264f2681004b8db9e/datadog-0.8.0.tar.gz
+Collecting decorator==4.3.0 (from -r requirements.txt (line 20))
+  Downloading https://files.pythonhosted.org/packages/bc/bb/a24838832ba35baf52f32ab1a49b906b5f82fb7c76b2f6a7e35e140bac30/decorator-4.3.0-py2.py3-none-any.whl
+Collecting docopt==0.6.2 (from -r requirements.txt (line 21))
+  Downloading https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz
+Collecting docutils==0.14 (from -r requirements.txt (line 22))
+  Downloading https://files.pythonhosted.org/packages/50/09/c53398e0005b11f7ffb27b7aa720c617aba53be4fb4f4f3f06b9b5c60f28/docutils-0.14-py2-none-any.whl (543kB)
+Collecting ecdsa==0.13 (from -r requirements.txt (line 23))
+  Downloading https://files.pythonhosted.org/packages/63/f4/73669d51825516ce8c43b816c0a6b64cd6eb71d08b99820c00792cb42222/ecdsa-0.13-py2.py3-none-any.whl (86kB)
+Collecting enum34==1.1.6 (from -r requirements.txt (line 24))
+  Downloading https://files.pythonhosted.org/packages/c5/db/e56e6b4bbac7c4a06de1c50de6fe1ef3810018ae11732a50f15f62c7d050/enum34-1.1.6-py2-none-any.whl
+Collecting futures==3.2.0 (from -r requirements.txt (line 25))
+  Downloading https://files.pythonhosted.org/packages/2d/99/b2c4e9d5a30f6471e410a146232b4118e697fa3ffc06d6a65efde84debd0/futures-3.2.0-py2-none-any.whl
+Collecting idna==2.6 (from -r requirements.txt (line 26))
+  Downloading https://files.pythonhosted.org/packages/27/cc/6dd9a3869f15c2edfab863b992838277279ce92663d334df9ecf5106f5c6/idna-2.6-py2.py3-none-any.whl (56kB)
+Collecting ipaddress==1.0.22 (from -r requirements.txt (line 27))
+  Downloading https://files.pythonhosted.org/packages/fc/d0/7fc3a811e011d4b388be48a0e381db8d990042df54aa4ef4599a31d39853/ipaddress-1.0.22-py2.py3-none-any.whl
+Requirement already satisfied: jinja2==2.8 in /usr/lib/python2.7/dist-packages (from -r requirements.txt (line 28))
+Collecting jmespath==0.9.3 (from -r requirements.txt (line 29))
+  Downloading https://files.pythonhosted.org/packages/b7/31/05c8d001f7f87f0f07289a5fc0fc3832e9a57f2dbd4d3b0fee70e0d51365/jmespath-0.9.3-py2.py3-none-any.whl
+Collecting markupsafe==1.0 (from -r requirements.txt (line 30))
+  Downloading https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz
+Collecting mysql-python==1.2.5 (from -r requirements.txt (line 31))
+  Downloading https://files.pythonhosted.org/packages/a5/e9/51b544da85a36a68debe7a7091f068d802fc515a3a202652828c73453cad/MySQL-python-1.2.5.zip (108kB)
+Collecting networkx==1.11 (from -r requirements.txt (line 32))
+  Downloading https://files.pythonhosted.org/packages/d3/2c/e473e54afc9fae58dfa97066ef6709a7e35a1dd1c28c5a3842989322be00/networkx-1.11-py2.py3-none-any.whl (1.3MB)
+Collecting paramiko==2.4.1 (from -r requirements.txt (line 33))
+  Downloading https://files.pythonhosted.org/packages/3e/db/cb7b6656e0e7387637ce850689084dc0b94b44df31cc52e5fc5c2c4fd2c1/paramiko-2.4.1-py2.py3-none-any.whl (194kB)
+Collecting pathlib2==2.3.0 (from -r requirements.txt (line 34))
+  Downloading https://files.pythonhosted.org/packages/74/4e/68add57f8b993bb5da70c22c7eebb4266c7b66cab15095a1578cc6a62b1a/pathlib2-2.3.0-py2.py3-none-any.whl
+Collecting prettytable==0.7.2 (from -r requirements.txt (line 35))
+  Downloading https://files.pythonhosted.org/packages/ef/30/4b0746848746ed5941f052479e7c23d2b56d174b82f4fd34a25e389831f5/prettytable-0.7.2.tar.bz2
+Collecting pyasn1==0.4.2 (from -r requirements.txt (line 36))
+  Downloading https://files.pythonhosted.org/packages/ba/fe/02e3e2ee243966b143657fb8bd6bc97595841163b6d8c26820944acaec4d/pyasn1-0.4.2-py2.py3-none-any.whl (71kB)
+Collecting pycparser==2.18 (from -r requirements.txt (line 37))
+  Downloading https://files.pythonhosted.org/packages/8c/2d/aad7f16146f4197a11f8e91fb81df177adcc2073d36a17b1491fd09df6ed/pycparser-2.18.tar.gz (245kB)
+Collecting pycrypto==2.6.1 (from -r requirements.txt (line 38))
+  Downloading https://files.pythonhosted.org/packages/60/db/645aa9af249f059cc3a368b118de33889219e0362141e75d4eaf6f80f163/pycrypto-2.6.1.tar.gz (446kB)
+Collecting pymongo==3.2.2 (from -r requirements.txt (line 39))
+  Downloading https://files.pythonhosted.org/packages/5a/59/d4faf11957b03a470882670f5f7dafd424a0364fdc0d8c7e8ab53f58ac40/pymongo-3.2.2.tar.gz (504kB)
+Collecting pynacl==1.2.1 (from -r requirements.txt (line 40))
+  Downloading https://files.pythonhosted.org/packages/80/3d/d709b9fbd69e21dd3a4d34eb690c5484094699e03b7447bc7eb173cfd7b6/PyNaCl-1.2.1-cp27-cp27mu-manylinux1_x86_64.whl (696kB)
+Collecting python-dateutil==2.7.3 (from -r requirements.txt (line 41))
+  Downloading https://files.pythonhosted.org/packages/cf/f5/af2b09c957ace60dcfac112b669c45c8c97e32f94aa8b56da4c6d1682825/python_dateutil-2.7.3-py2.py3-none-any.whl (211kB)
+Collecting python-simple-hipchat==0.2 (from -r requirements.txt (line 42))
+  Downloading https://files.pythonhosted.org/packages/43/d7/9a18d992c53da06255f286675f9574074640a0b0c0b7a6f6c479d7975d6d/python-simple-hipchat-0.2.tar.gz
+Collecting pyyaml==3.12 (from -r requirements.txt (line 43))
+  Downloading https://files.pythonhosted.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz (253kB)
+Collecting requests==2.18.4 (from -r requirements.txt (line 44))
+  Downloading https://files.pythonhosted.org/packages/49/df/50aa1999ab9bde74656c2919d9c0c085fd2b3775fd3eca826012bef76d8c/requests-2.18.4-py2.py3-none-any.whl (88kB)
+Collecting rsa==3.4.2 (from -r requirements.txt (line 45))
+  Downloading https://files.pythonhosted.org/packages/e1/ae/baedc9cb175552e95f3395c43055a6a5e125ae4d48a1d7a924baca83e92e/rsa-3.4.2-py2.py3-none-any.whl (46kB)
+Collecting s3transfer==0.1.13 (from -r requirements.txt (line 46))
+  Downloading https://files.pythonhosted.org/packages/d7/14/2a0004d487464d120c9fb85313a75cd3d71a7506955be458eebfe19a6b1d/s3transfer-0.1.13-py2.py3-none-any.whl (59kB)
+Collecting scandir==1.7 (from -r requirements.txt (line 47))
+  Downloading https://files.pythonhosted.org/packages/13/bb/e541b74230bbf7a20a3949a2ee6631be299378a784f5445aa5d0047c192b/scandir-1.7.tar.gz
+Collecting simplejson==3.15.0 (from -r requirements.txt (line 48))
+  Downloading https://files.pythonhosted.org/packages/8b/6c/c512c32124d1d2d67a32ff867bb3cdd5bfa6432660975f7ee753ed7ad886/simplejson-3.15.0.tar.gz (80kB)
+Collecting six==1.11.0 (from -r requirements.txt (line 49))
+  Downloading https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Collecting urllib3==1.22 (from -r requirements.txt (line 50))
+  Downloading https://files.pythonhosted.org/packages/63/cb/6965947c13a94236f6d4b8223e21beb4d576dc72e8130bd7880f600839b8/urllib3-1.22-py2.py3-none-any.whl (132kB)
+Requirement already satisfied: wsgiref==0.1.2 in /usr/lib/python2.7 (from -r requirements.txt (line 51))
+Collecting docker-compose==1.9.0 (from -r requirements.txt (line 53))
+  Downloading https://files.pythonhosted.org/packages/37/bc/82444964a31604aedf78b302cdfc55bc56807aa8a4fafd9b1db85ec3ebe8/docker-compose-1.9.0.tar.gz (156kB)
+Requirement already satisfied: setuptools in /usr/local/lib/python2.7/dist-packages (from ansible==2.3.1.0->-r requirements.txt (line 7))
+Collecting cached-property<2,>=1.2.0 (from docker-compose==1.9.0->-r requirements.txt (line 53))
+  Downloading https://files.pythonhosted.org/packages/3b/86/85c1be2e8db9e13ef9a350aecd6dea292bd612fa288c2f40d035bb750ded/cached_property-1.5.1-py2.py3-none-any.whl
+Collecting texttable<0.9,>=0.8.1 (from docker-compose==1.9.0->-r requirements.txt (line 53))
+  Downloading https://files.pythonhosted.org/packages/74/49/23d944a6f7d4dd20846b2df2914fe108c96a253567c140c416edbf270f80/texttable-0.8.8.tar.gz
+Collecting websocket-client<1.0,>=0.32.0 (from docker-compose==1.9.0->-r requirements.txt (line 53))
+  Downloading https://files.pythonhosted.org/packages/29/19/44753eab1fdb50770ac69605527e8859468f3c0fd7dc5a76dd9c4dbd7906/websocket_client-0.56.0-py2.py3-none-any.whl (200kB)
+Collecting docker-py<2.0,>=1.10.6 (from docker-compose==1.9.0->-r requirements.txt (line 53))
+  Downloading https://files.pythonhosted.org/packages/23/c7/1fd6d4d620809fe2f323869d719e2dd0086c939b67021303a9ec40f5a05b/docker_py-1.10.6-py2.py3-none-any.whl (50kB)
+Collecting dockerpty<0.5,>=0.4.1 (from docker-compose==1.9.0->-r requirements.txt (line 53))
+  Downloading https://files.pythonhosted.org/packages/8d/ee/e9ecce4c32204a6738e0a5d5883d3413794d7498fe8b06f44becc028d3ba/dockerpty-0.4.1.tar.gz
+Collecting jsonschema<3,>=2.5.1 (from docker-compose==1.9.0->-r requirements.txt (line 53))
+  Downloading https://files.pythonhosted.org/packages/77/de/47e35a97b2b05c2fadbec67d44cfcdcd09b8086951b331d82de90d2912da/jsonschema-2.6.0-py2.py3-none-any.whl
+Collecting backports.ssl-match-hostname>=3.5; python_version < "3.5" (from docker-py<2.0,>=1.10.6->docker-compose==1.9.0->-r requirements.txt (line 53))
+  Downloading https://files.pythonhosted.org/packages/ff/2b/8265224812912bc5b7a607c44bf7b027554e1b9775e9ee0de8032e3de4b2/backports.ssl_match_hostname-3.7.0.1.tar.gz
+Collecting docker-pycreds>=0.2.1 (from docker-py<2.0,>=1.10.6->docker-compose==1.9.0->-r requirements.txt (line 53))
+  Downloading https://files.pythonhosted.org/packages/f5/e8/f6bd1eee09314e7e6dee49cbe2c5e22314ccdb38db16c9fc72d2fa80d054/docker_pycreds-0.4.0-py2.py3-none-any.whl
+Collecting functools32; python_version == "2.7" (from jsonschema<3,>=2.5.1->docker-compose==1.9.0->-r requirements.txt (line 53))
+  Downloading https://files.pythonhosted.org/packages/c5/60/6ac26ad05857c601308d8fb9e87fa36d0ebf889423f47c3502ef034365db/functools32-3.2.3-2.tar.gz
+Building wheels for collected packages: ansible, datadog, docopt, markupsafe, mysql-python, prettytable, pycparser, pycrypto, pymongo, python-simple-hipchat, pyyaml, scandir, simplejson, docker-compose, texttable, dockerpty, backports.ssl-match-hostname, functools32
+  Running setup.py bdist_wheel for ansible: started
+  Running setup.py bdist_wheel for ansible: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/c3/f6/15/a28900ec9fbcda512efe90c9126f75e6c4cf6b97277bdd6397
+  Running setup.py bdist_wheel for datadog: started
+  Running setup.py bdist_wheel for datadog: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/88/9d/ed/6693983ca01635176593731b8a3bcfa6bdb9d4ac58c2a20377
+  Running setup.py bdist_wheel for docopt: started
+  Running setup.py bdist_wheel for docopt: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/9b/04/dd/7daf4150b6d9b12949298737de9431a324d4b797ffd63f526e
+  Running setup.py bdist_wheel for markupsafe: started
+  Running setup.py bdist_wheel for markupsafe: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/33/56/20/ebe49a5c612fffe1c5a632146b16596f9e64676768661e4e46
+  Running setup.py bdist_wheel for mysql-python: started
+  Running setup.py bdist_wheel for mysql-python: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/07/d2/5f/314860e4cb53a44bf0ee0d051d4b34465e4b4fbe9de6d42f42
+  Running setup.py bdist_wheel for prettytable: started
+  Running setup.py bdist_wheel for prettytable: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/80/34/1c/3967380d9676d162cb59513bd9dc862d0584e045a162095606
+  Running setup.py bdist_wheel for pycparser: started
+  Running setup.py bdist_wheel for pycparser: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/c0/a1/27/5ba234bd77ea5a290cbf6d675259ec52293193467a12ef1f46
+  Running setup.py bdist_wheel for pycrypto: started
+  Running setup.py bdist_wheel for pycrypto: still running...
+  Running setup.py bdist_wheel for pycrypto: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/27/02/5e/77a69d0c16bb63c6ed32f5386f33a2809c94bd5414a2f6c196
+  Running setup.py bdist_wheel for pymongo: started
+  Running setup.py bdist_wheel for pymongo: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/2a/04/f8/4811235c188336d630a7130c4112bebc211a63c711f66de38d
+  Running setup.py bdist_wheel for python-simple-hipchat: started
+  Running setup.py bdist_wheel for python-simple-hipchat: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/25/ac/d5/b06b8ca439464d888b7074699d2a98ebc7e48a019f5b3c82d9
+  Running setup.py bdist_wheel for pyyaml: started
+  Running setup.py bdist_wheel for pyyaml: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/03/05/65/bdc14f2c6e09e82ae3e0f13d021e1b6b2481437ea2f207df3f
+  Running setup.py bdist_wheel for scandir: started
+  Running setup.py bdist_wheel for scandir: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/4a/ca/d7/26c3620234732f2d5b3ca86d7ccb0f59a21bd7712bffbbedc2
+  Running setup.py bdist_wheel for simplejson: started
+  Running setup.py bdist_wheel for simplejson: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/2c/96/fb/b63af7400da79753dcd2a3f9bf5e7a3010e8d0233844445c2c
+  Running setup.py bdist_wheel for docker-compose: started
+  Running setup.py bdist_wheel for docker-compose: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/0c/8e/a2/388a468c784be62dfe7d276cc5fa0d8d2440084237814954b2
+  Running setup.py bdist_wheel for texttable: started
+  Running setup.py bdist_wheel for texttable: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/e6/50/66/cffbd36db351677a36e03cc8f071e519cbf6a907ef9bad117d
+  Running setup.py bdist_wheel for dockerpty: started
+  Running setup.py bdist_wheel for dockerpty: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/e5/1e/86/bd0a97a0907c6c654af654d5875d1d4383dd1f575f77cee4aa
+  Running setup.py bdist_wheel for backports.ssl-match-hostname: started
+  Running setup.py bdist_wheel for backports.ssl-match-hostname: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/f1/ad/d7/c184cf1ef67b07f98565dc52f91ed4f9a759b7b46674b2fd76
+  Running setup.py bdist_wheel for functools32: started
+  Running setup.py bdist_wheel for functools32: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/b5/18/32/77a1030457155606ba5e3ec3a8a57132b1a04b1c4f765177b2
+Successfully built ansible datadog docopt markupsafe mysql-python prettytable pycparser pycrypto pymongo python-simple-hipchat pyyaml scandir simplejson docker-compose texttable dockerpty backports.ssl-match-hostname functools32
+Installing collected packages: pyyaml, pyasn1, six, pycparser, cffi, bcrypt, enum34, asn1crypto, idna, ipaddress, cryptography, pynacl, paramiko, pycrypto, ansible, docutils, colorama, jmespath, python-dateutil, botocore, futures, s3transfer, rsa, awscli, boto3, boto, certifi, chardet, decorator, urllib3, requests, simplejson, datadog, docopt, ecdsa, markupsafe, mysql-python, networkx, scandir, pathlib2, prettytable, pymongo, python-simple-hipchat, cached-property, texttable, websocket-client, backports.ssl-match-hostname, docker-pycreds, docker-py, dockerpty, functools32, jsonschema, docker-compose
+  Found existing installation: PyYAML 3.11
+    DEPRECATION: Uninstalling a distutils installed project (pyyaml) has been deprecated and will be removed in a future version. This is due to the fact that uninstalling a distutils project will only partially uninstall the project.
+    Uninstalling PyYAML-3.11:
+      Successfully uninstalled PyYAML-3.11
+  Found existing installation: MarkupSafe 0.23
+    Uninstalling MarkupSafe-0.23:
+      Successfully uninstalled MarkupSafe-0.23
+Successfully installed ansible-2.3.1.0 asn1crypto-0.24.0 awscli-1.15.19 backports.ssl-match-hostname-3.7.0.1 bcrypt-3.1.4 boto-2.48.0 boto3-1.7.14 botocore-1.10.19 cached-property-1.5.1 certifi-2018.4.16 cffi-1.11.5 chardet-3.0.4 colorama-0.3.7 cryptography-2.2.2 datadog-0.8.0 decorator-4.3.0 docker-compose-1.9.0 docker-py-1.10.6 docker-pycreds-0.4.0 dockerpty-0.4.1 docopt-0.6.2 docutils-0.14 ecdsa-0.13 enum34-1.1.6 functools32-3.2.3.post2 futures-3.2.0 idna-2.6 ipaddress-1.0.22 jmespath-0.9.3 jsonschema-2.6.0 markupsafe-1.0 mysql-python-1.2.5 networkx-1.11 paramiko-2.4.1 pathlib2-2.3.0 prettytable-0.7.2 pyasn1-0.4.2 pycparser-2.18 pycrypto-2.6.1 pymongo-3.2.2 pynacl-1.2.1 python-dateutil-2.7.3 python-simple-hipchat-0.2 pyyaml-3.12 requests-2.18.4 rsa-3.4.2 s3transfer-0.1.13 scandir-1.7 simplejson-3.15.0 six-1.11.0 texttable-0.8.8 urllib3-1.22 websocket-client-0.56.0
+You are using pip version 9.0.3, however version 19.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ [WARNING]: While constructing a mapping from
+/var/tmp/configuration/playbooks/roles/forum/defaults/main.yml, line 75, column 3, found a duplicate
+dict key (RACK_ENV). Using last defined value only.
+ [WARNING]: While constructing a mapping from
+/var/tmp/configuration/playbooks/roles/forum/defaults/main.yml, line 75, column 3, found a duplicate
+dict key (SINATRA_ENV). Using last defined value only.
+ [WARNING]: While constructing a mapping from
+/var/tmp/configuration/playbooks/roles/forum/defaults/main.yml, line 75, column 3, found a duplicate
+dict key (SEARCH_SERVER). Using last defined value only.
+ [WARNING]: While constructing a mapping from
+/var/tmp/configuration/playbooks/roles/forum/defaults/main.yml, line 75, column 3, found a duplicate
+dict key (MONGOHQ_URL). Using last defined value only.
+
+PLAY [Bootstrap instance(s)] ****************************************************************************
+
+TASK [python : Update apt-get] **************************************************************************
+changed: [localhost]
+
+TASK [python : Install packages] ************************************************************************
+changed: [localhost] => (item=python-minimal)
+
+PLAY [Configure instance(s)] ****************************************************************************
+
+TASK [Gathering Facts] **********************************************************************************
+ok: [localhost]
+
+TASK [swapfile : Write swapfile] ************************************************************************
+changed: [localhost]
+
+TASK [swapfile : Set swapfile permissions] **************************************************************
+changed: [localhost]
+
+TASK [swapfile : Create swapfile] ***********************************************************************
+changed: [localhost]
+
+TASK [swapfile : Enable swapfile] ***********************************************************************
+changed: [localhost]
+
+TASK [swapfile : Add swapfile to /etc/fstab] ************************************************************
+changed: [localhost]
+
+TASK [swapfile : Configure vm.swappiness] ***************************************************************
+skipping: [localhost]
+
+TASK [swapfile : Configure vm.vfs_cache_pressure] *******************************************************
+skipping: [localhost]
+
+TASK [server_utils : Check for expired edx key] *********************************************************
+changed: [localhost]
+
+TASK [server_utils : remove expired edx key] ************************************************************
+skipping: [localhost]
+
+TASK [server_utils : Install ubuntu system packages] ****************************************************
+ok: [localhost] => (item=[u'ack-grep', u'mosh', u'tree', u'screen', u'tmux', u'curl', u'vim', u'dnsutils', u'inetutils-telnet', u'netcat'])
+
+TASK [user : Install debian packages user role needs] ***************************************************
+changed: [localhost] => (item=[u'python-httplib2'])
+
+TASK [user : debug] *************************************************************************************
+ok: [localhost] => {
+    "user_info": []
+}
+
+TASK [user : Create the edxadmin group] *****************************************************************
+ok: [localhost]
+
+TASK [user : Ensure sudoers.d is read] ******************************************************************
+ok: [localhost]
+
+TASK [user : Grant full sudo access to the edxadmin group] **********************************************
+ok: [localhost]
+
+TASK [user : Create the users] **************************************************************************
+
+TASK [user : Assign admin role to admin users] **********************************************************
+
+TASK [user : Check the ssh key(s) for user(s) over github] **********************************************
+
+TASK [user : Print warning if github user(s) missing ssh key] *******************************************
+
+TASK [user : Halt if USER_FAIL_MISSING_KEYS is true and github user(s) missing ssh key] *****************
+
+TASK [user : Get github key(s) and update the authorized_keys file] *************************************
+
+TASK [user : Create bashrc file for normal users] *******************************************************
+
+TASK [user : Create .profile for all users] *************************************************************
+
+TASK [user : Modify shell for restricted users] *********************************************************
+
+TASK [user : Create bashrc file for restricted users] ***************************************************
+
+TASK [user : Create sudoers file from template] *********************************************************
+ok: [localhost]
+
+TASK [user : Change home directory ownership to root for restricted users] ******************************
+
+TASK [user : Create ~/bin directory] ********************************************************************
+
+TASK [user : Create allowed command links] **************************************************************
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure periodic unattended-upgrades] ************************************************
+skipping: [localhost]
+
+TASK [security : Disable unattended-upgrades if Xenial (16.04)] *****************************************
+skipping: [localhost] => (item=systemctl disable apt-daily.service) 
+skipping: [localhost] => (item=systemctl disable apt-daily.timer) 
+skipping: [localhost] => (item=systemctl disable apt-daily-upgrade.timer) 
+
+TASK [security : Disable unattended-upgrades] ***********************************************************
+skipping: [localhost]
+
+TASK [security : Only unattended-upgrade from security repo] ********************************************
+skipping: [localhost]
+
+TASK [security : Disable security only updates on unattended-upgrades] **********************************
+skipping: [localhost]
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=unattended-upgrade --dry-run) 
+skipping: [localhost] => (item=unattended-upgrade) 
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Enable automatic start for update service] *********************************************
+skipping: [localhost]
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure security auto-updates] *******************************************************
+skipping: [localhost] => (item={u'regexp': u'^update_cmd', u'line': u'update_cmd = security'}) 
+skipping: [localhost] => (item={u'regexp': u'^apply_updates', u'line': u'apply_updates = yes'}) 
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=yum check-update --security) 
+skipping: [localhost] => (item=yum update --security -y) 
+
+TASK [common : Check Configuration Sources] *************************************************************
+
+TASK [common : stat] ************************************************************************************
+ok: [localhost]
+
+TASK [common : Update CA Certificates] ******************************************************************
+changed: [localhost]
+
+TASK [common : stat] ************************************************************************************
+ok: [localhost]
+
+TASK [common : Update CA Trust] *************************************************************************
+skipping: [localhost]
+
+TASK [common : Add common_users] ************************************************************************
+ok: [localhost] => (item=www-data)
+ok: [localhost] => (item=syslog)
+
+TASK [common : check if instance is vagrant] ************************************************************
+ok: [localhost]
+
+TASK [common : Add git apt repository] ******************************************************************
+ok: [localhost]
+
+TASK [common : Add edX PPA apt key] *********************************************************************
+ok: [localhost]
+
+TASK [common : Add custom edX PPA] **********************************************************************
+ok: [localhost]
+
+TASK [common : Install role-independent useful system packages] *****************************************
+changed: [localhost] => (item=[u'apt-transport-https', u'ntp', u'acl', u'iotop', u'lynx-cur', u'logrotate', u'rsyslog', u'git', u'unzip', u'python-pip', u'python2.7-dev'])
+
+TASK [common : Install role-independent useful system packages from custom PPA] *************************
+skipping: [localhost] => (item=[]) 
+
+TASK [common : Install role-independent useful system packages] *****************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [common : Create common directories] ***************************************************************
+changed: [localhost] => (item={u'path': u'/edx/var'})
+changed: [localhost] => (item={u'path': u'/edx/app'})
+changed: [localhost] => (item={u'path': u'/edx/bin'})
+changed: [localhost] => (item={u'path': u'/edx/etc'})
+changed: [localhost] => (item={u'owner': u'syslog', u'path': u'/edx/var/log', u'group': u'syslog'})
+changed: [localhost] => (item={u'path': u'/etc/logrotate.d/hourly'})
+changed: [localhost] => (item={u'path': u'/etc/rsyslog.d/50-default.conf', u'state': u'absent'})
+
+TASK [common : upload sudo config for key forwarding as root] *******************************************
+changed: [localhost]
+
+TASK [common : pip install virtualenv] ******************************************************************
+ok: [localhost] => (item=pip==9.0.3)
+ok: [localhost] => (item=setuptools==39.0.1)
+ok: [localhost] => (item=virtualenv==15.2.0)
+changed: [localhost] => (item=virtualenvwrapper==4.8.2)
+
+TASK [common : update /etc/hosts] ***********************************************************************
+skipping: [localhost]
+
+TASK [common : update /etc/hostname] ********************************************************************
+skipping: [localhost]
+
+TASK [common : run hostname] ****************************************************************************
+skipping: [localhost]
+
+TASK [common : Copy the templates to their respestive destination] **************************************
+changed: [localhost] => (item={u'dest': u'/etc/rsyslog.d/99-edx.conf', u'src': u'edx_rsyslog.j2'})
+changed: [localhost] => (item={u'dest': u'/etc/logrotate.d/hourly/edx-services', u'src': u'etc/logrotate.d/hourly/edx_logrotate.j2'})
+changed: [localhost] => (item={u'dest': u'/etc/cron.hourly/logrotate', u'src': u'etc/cron.hourly/logrotate.j2', u'mode': u'0555'})
+changed: [localhost] => (item={u'dest': u'/etc/logrotate.d/hourly/tracking.log', u'src': u'etc/logrotate.d/hourly/edx_logrotate_tracking_log.j2'})
+
+TASK [common : restart rsyslogd] ************************************************************************
+changed: [localhost]
+
+TASK [common : Add ntp alert script] ********************************************************************
+changed: [localhost]
+
+TASK [common : Remove MOTD update checker] **************************************************************
+changed: [localhost]
+
+TASK [common : Set up a cron job to run the log-ntp-alerts script] **************************************
+changed: [localhost]
+
+TASK [common : install logrotate configuration] *********************************************************
+changed: [localhost]
+
+TASK [nginx : Create Diffie-Hellman parameters to prevent weak key exchange] ****************************
+changed: [localhost]
+
+TASK [nginx : Restrict permissions of DH parameters file] ***********************************************
+changed: [localhost]
+
+TASK [nginx : Create nginx app and data dirs] ***********************************************************
+changed: [localhost] => (item={u'owner': u'root', u'path': u'/edx/app/nginx', u'group': u'www-data'})
+changed: [localhost] => (item={u'owner': u'root', u'path': u'/edx/app/nginx/sites-available', u'group': u'www-data'})
+changed: [localhost] => (item={u'owner': u'root', u'path': u'/etc/nginx/sites-enabled', u'group': u'www-data'})
+changed: [localhost] => (item={u'owner': u'root', u'path': u'/edx/app/nginx/conf.d', u'group': u'www-data'})
+changed: [localhost] => (item={u'owner': u'www-data', u'path': u'/edx/var/nginx', u'group': u'root'})
+changed: [localhost] => (item={u'owner': u'www-data', u'path': u'/edx/var/log/nginx', u'group': u'root'})
+changed: [localhost] => (item={u'owner': u'www-data', u'path': u'/edx/var/nginx/server-static', u'group': u'root'})
+
+TASK [nginx : Install needed packages] ******************************************************************
+changed: [localhost] => (item=[u'python-passlib'])
+
+TASK [nginx : Add apt key] ******************************************************************************
+changed: [localhost]
+
+TASK [nginx : Add nginx repository] *********************************************************************
+changed: [localhost]
+
+TASK [nginx : Remove old nginx packages] ****************************************************************
+ok: [localhost]
+
+TASK [nginx : Install the nginx package] ****************************************************************
+changed: [localhost]
+
+TASK [nginx : Remove the default site] ******************************************************************
+ok: [localhost]
+
+TASK [nginx : Define server configuration file and common nginx configuration] **************************
+changed: [localhost] => (item={u'dest': u'/etc/nginx/nginx.conf', u'src': u'etc/nginx/nginx.conf.j2', u'group': u'www-data', u'mode': u'0644'})
+changed: [localhost] => (item={u'dest': u'/edx/app/nginx/sites-available/maps', u'src': u'edx/app/nginx/sites-available/maps.j2', u'group': u'root', u'mode': u'0600'})
+
+TASK [nginx : Create robot rules] ***********************************************************************
+skipping: [localhost]
+
+TASK [nginx : Creating link for common nginx configuration] *********************************************
+changed: [localhost] => (item=maps)
+
+TASK [nginx : Copying nginx configs for [u'certs', u'cms', u'lms', u'forum', u'xqueue']] ****************
+changed: [localhost] => (item=certs)
+changed: [localhost] => (item=cms)
+changed: [localhost] => (item=lms)
+changed: [localhost] => (item=forum)
+changed: [localhost] => (item=xqueue)
+
+TASK [nginx : Creating nginx config links for [u'certs', u'cms', u'lms', u'forum', u'xqueue']] **********
+changed: [localhost] => (item=certs)
+changed: [localhost] => (item=cms)
+changed: [localhost] => (item=lms)
+changed: [localhost] => (item=forum)
+changed: [localhost] => (item=xqueue)
+
+TASK [nginx : Copying nginx extra configs] **************************************************************
+
+TASK [nginx : Creating links for nginx extra configs] ***************************************************
+
+TASK [nginx : Copying custom nginx config] **************************************************************
+
+TASK [nginx : Copying nginx redirect configs for {}] ****************************************************
+
+TASK [nginx : Creating nginx redirect links for {}] *****************************************************
+
+TASK [nginx : Create NGINX server templates] ************************************************************
+changed: [localhost] => (item={u'lang': u'en', u'img': u'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Pendleton_Sinking_Ship.jpg/640px-Pendleton_Sinking_Ship.jpg', u'title': u'Rate limit exceeded', u'style_p': u'font-family: Georgia,Cambria,"Times New Roman",Times,serif; margin: auto; margin-bottom: 1em; font-weight: 200; line-height: 1.4em; font-size: 1.1em; max-width: 80%;', u'style_div': u'margin: auto; width: 800px; text-align: center; padding:20px 0px 0px 0px;', u'img_alt': u'', u'heading': u'Uh oh, we are having some server issues..', u'file': u'rate-limit.html', u'msg': u'If think you have encountered this message in error please let us know at <a href="mailto:technical@example.com">technical@example.com</a>', u'style_h1': u'font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; margin-bottom: .3em; font-size: 2.0em; line-height: 1.25em; text-rendering: optimizeLegibility; font-weight: bold; color: #000000;', u'style_p_h2': u'font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; margin-bottom: .3em; line-height: 1.25em; text-rendering: optimizeLegibility; font-weight: bold; font-size: 1.8em; color: #5b5e63;'})
+changed: [localhost] => (item={u'lang': u'en', u'img': u'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Pendleton_Sinking_Ship.jpg/640px-Pendleton_Sinking_Ship.jpg', u'title': u'Server error', u'style_p': u'font-family: Georgia,Cambria,"Times New Roman",Times,serif; margin: auto; margin-bottom: 1em; font-weight: 200; line-height: 1.4em; font-size: 1.1em; max-width: 80%;', u'style_div': u'margin: auto; width: 800px; text-align: center; padding:20px 0px 0px 0px;', u'img_alt': u'', u'heading': u'Uh oh, we are having some server issues..', u'file': u'server-error.html', u'msg': u'We have been notified of the error, if it persists please let us know at <a href="mailto:technical@example.com">technical@example.com</a>', u'style_h1': u'font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; margin-bottom: .3em; font-size: 2.0em; line-height: 1.25em; text-rendering: optimizeLegibility; font-weight: bold; color: #000000;', u'style_p_h2': u'font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif; margin-bottom: .3em; line-height: 1.25em; text-rendering: optimizeLegibility; font-weight: bold; font-size: 1.8em; color: #5b5e63;'})
+
+TASK [nginx : Write out htpasswd file] ******************************************************************
+ [WARNING]: when statements should not include jinja2 templating delimiters such as {{ }} or {% %}.
+Found: {{   CERTS_ENABLE_BASIC_AUTH|bool or   ECOMMERCE_ENABLE_BASIC_AUTH|bool or
+EDXAPP_CMS_ENABLE_BASIC_AUTH|bool or   EDXAPP_LMS_ENABLE_BASIC_AUTH|bool or
+EDXAPP_LMS_PREVIEW_ENABLE_BASIC_AUTH|bool or   KIBANA_ENABLE_BASIC_AUTH|bool or
+XQUEUE_ENABLE_BASIC_AUTH|bool or   XSERVER_ENABLE_BASIC_AUTH|bool }}
+skipping: [localhost] => (item={u'state': u'present', u'password': u'nbec39zpYFeMFT1n7ObSu8GUHb9OTR1GdTz', u'name': u'CXTsbKR2f1PWWNdmwQLcbjerPOUqORDR0bq'}) 
+
+TASK [nginx : Create nginx log file location (just in case)] ********************************************
+changed: [localhost]
+
+TASK [nginx : stat] *************************************************************************************
+ok: [localhost -> localhost]
+
+TASK [nginx : stat] *************************************************************************************
+ok: [localhost -> localhost]
+
+TASK [nginx : copy ssl cert] ****************************************************************************
+skipping: [localhost]
+
+TASK [nginx : copy ssl key] *****************************************************************************
+skipping: [localhost]
+
+TASK [nginx : Removing default nginx config and restart (enabled)] **************************************
+ok: [localhost]
+
+TASK [nginx : Set up nginx access log rotation] *********************************************************
+changed: [localhost]
+
+TASK [nginx : Set up nginx error log rotation] **********************************************************
+changed: [localhost]
+
+RUNNING HANDLER [nginx : restart nginx] *****************************************************************
+changed: [localhost]
+
+RUNNING HANDLER [nginx : reload nginx] ******************************************************************
+changed: [localhost]
+
+TASK [nginx : make sure nginx has started] **************************************************************
+ok: [localhost]
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure periodic unattended-upgrades] ************************************************
+skipping: [localhost]
+
+TASK [security : Disable unattended-upgrades if Xenial (16.04)] *****************************************
+skipping: [localhost] => (item=systemctl disable apt-daily.service) 
+skipping: [localhost] => (item=systemctl disable apt-daily.timer) 
+skipping: [localhost] => (item=systemctl disable apt-daily-upgrade.timer) 
+
+TASK [security : Disable unattended-upgrades] ***********************************************************
+skipping: [localhost]
+
+TASK [security : Only unattended-upgrade from security repo] ********************************************
+skipping: [localhost]
+
+TASK [security : Disable security only updates on unattended-upgrades] **********************************
+skipping: [localhost]
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=unattended-upgrade --dry-run) 
+skipping: [localhost] => (item=unattended-upgrade) 
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Enable automatic start for update service] *********************************************
+skipping: [localhost]
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure security auto-updates] *******************************************************
+skipping: [localhost] => (item={u'regexp': u'^update_cmd', u'line': u'update_cmd = security'}) 
+skipping: [localhost] => (item={u'regexp': u'^apply_updates', u'line': u'apply_updates = yes'}) 
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=yum check-update --security) 
+skipping: [localhost] => (item=yum update --security -y) 
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure periodic unattended-upgrades] ************************************************
+skipping: [localhost]
+
+TASK [security : Disable unattended-upgrades if Xenial (16.04)] *****************************************
+skipping: [localhost] => (item=systemctl disable apt-daily.service) 
+skipping: [localhost] => (item=systemctl disable apt-daily.timer) 
+skipping: [localhost] => (item=systemctl disable apt-daily-upgrade.timer) 
+
+TASK [security : Disable unattended-upgrades] ***********************************************************
+skipping: [localhost]
+
+TASK [security : Only unattended-upgrade from security repo] ********************************************
+skipping: [localhost]
+
+TASK [security : Disable security only updates on unattended-upgrades] **********************************
+skipping: [localhost]
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=unattended-upgrade --dry-run) 
+skipping: [localhost] => (item=unattended-upgrade) 
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Enable automatic start for update service] *********************************************
+skipping: [localhost]
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure security auto-updates] *******************************************************
+skipping: [localhost] => (item={u'regexp': u'^update_cmd', u'line': u'update_cmd = security'}) 
+skipping: [localhost] => (item={u'regexp': u'^apply_updates', u'line': u'apply_updates = yes'}) 
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=yum check-update --security) 
+skipping: [localhost] => (item=yum update --security -y) 
+
+TASK [mysql : Look for mysql 5.6] ***********************************************************************
+fatal: [localhost]: FAILED! => {"changed": false, "cmd": "dpkg -s mysql-server", "delta": "0:00:00.978824", "end": "2019-05-23 16:30:25.581272", "failed": true, "rc": 1, "start": "2019-05-23 16:30:24.602448", "stderr": "dpkg-query: package 'mysql-server' is not installed and no information is available\nUse dpkg --info (= dpkg-deb --info) to examine archive files,\nand dpkg --contents (= dpkg-deb --contents) to list their contents.", "stderr_lines": ["dpkg-query: package 'mysql-server' is not installed and no information is available", "Use dpkg --info (= dpkg-deb --info) to examine archive files,", "and dpkg --contents (= dpkg-deb --contents) to list their contents."], "stdout": "", "stdout_lines": []}
+...ignoring
+
+TASK [mysql : Important message] ************************************************************************
+skipping: [localhost]
+
+TASK [mysql : pause] ************************************************************************************
+skipping: [localhost]
+
+TASK [mysql : Stop mysql service] ***********************************************************************
+skipping: [localhost]
+
+TASK [mysql : Remove experimental apt repository] *******************************************************
+skipping: [localhost]
+
+TASK [mysql : Remove experimental version of mysql] *****************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [mysql : Install mysql-5.6 and dependencies] *******************************************************
+changed: [localhost] => (item=[u'mysql-server-5.6', u'python-mysqldb'])
+
+TASK [mysql : Start mysql] ******************************************************************************
+ok: [localhost]
+
+TASK [mysql : Ensure Anonymous user(s) does not exist] **************************************************
+ok: [localhost] => (item=localhost)
+ok: [localhost] => (item=aditya-VirtualBox)
+
+TASK [edxlocal : Install packages needed for single server] *********************************************
+changed: [localhost] => (item=[u'postfix', u'libjpeg-dev'])
+
+TASK [edxlocal : create databases] **********************************************************************
+changed: [localhost] => (item=ecommerce)
+changed: [localhost] => (item=dashboard)
+changed: [localhost] => (item=xqueue)
+changed: [localhost] => (item=edxapp)
+changed: [localhost] => (item=edxapp_csmh)
+skipping: [localhost] => (item=) 
+changed: [localhost] => (item=analytics-api)
+changed: [localhost] => (item=reports)
+skipping: [localhost] => (item=) 
+changed: [localhost] => (item=discovery)
+skipping: [localhost] => (item=) 
+skipping: [localhost] => (item=) 
+
+TASK [edxlocal : create database users] *****************************************************************
+changed: [localhost] => (item={u'db': u'ecommerce', u'user': u'ecomm001', u'pass': u'LoKgGLkZflaCWPs2ukfmCHXKqWAHLZfRrZR'})
+changed: [localhost] => (item={u'db': u'dashboard', u'user': u'rosencrantz', u'pass': u'1jpzIHGB4rvusph3HMZOheswqdvW7W3MQz7'})
+changed: [localhost] => (item={u'db': u'xqueue', u'user': u'xqueue001', u'pass': u'wl0FZ5Byr0MfxLP4RVAgP7yLnhL06axQnMK'})
+changed: [localhost] => (item={u'db': u'edxapp', u'user': u'edxapp001', u'pass': u'Oed7BfaGe9dlNuBKUltkYNNx9uFUpORKEVt'})
+changed: [localhost] => (item={u'db': u'edxapp_csmh', u'user': u'edxapp_cmsh001', u'pass': u'v6BAI20fcJaLATRCSN3GbJmvnmkEcqo9RKU'})
+skipping: [localhost] => (item={u'db': u'', u'user': u'', u'pass': u'JbHREx0A7mw6yQ9jYaeld6zxLjBgddQO7NW'}) 
+skipping: [localhost] => (item={u'db': u'', u'user': u'', u'pass': u'6SzmpNBX9XcIBWeakoEYvByBvdDwaRBNTyW'}) 
+skipping: [localhost] => (item={u'db': u'', u'user': u'', u'pass': u'FH367bNtlYbt9axNSWQrZmFuckU64yU45dL'}) 
+changed: [localhost] => (item={u'db': u'discovery', u'user': u'discov001', u'pass': u'iFD4lvMv1e2gZXLg92ggGDeh3l5FVUVKuvd'})
+skipping: [localhost] => (item={u'db': u'', u'user': u'journ001', u'pass': u'password'}) 
+skipping: [localhost] => (item={u'db': u'', u'user': u'', u'pass': u''}) 
+
+TASK [edxlocal : setup the migration db user] ***********************************************************
+changed: [localhost] => (item=ecommerce)
+changed: [localhost] => (item=dashboard)
+changed: [localhost] => (item=xqueue)
+changed: [localhost] => (item=edxapp)
+changed: [localhost] => (item=edxapp_csmh)
+skipping: [localhost] => (item=) 
+changed: [localhost] => (item=analytics-api)
+changed: [localhost] => (item=reports)
+skipping: [localhost] => (item=) 
+changed: [localhost] => (item=discovery)
+skipping: [localhost] => (item=) 
+skipping: [localhost] => (item=) 
+
+TASK [edxlocal : create api user for the analytics api] *************************************************
+changed: [localhost]
+
+TASK [edxlocal : create read-only reports user for the analytics-api] ***********************************
+changed: [localhost]
+
+TASK [edxlocal : create a database for the hive metastore] **********************************************
+skipping: [localhost]
+
+TASK [edxlocal : setup the edx-notes-api db user] *******************************************************
+skipping: [localhost]
+
+TASK [edxlocal : setup the read-only db user] ***********************************************************
+changed: [localhost]
+
+TASK [edxlocal : setup the admin db user] ***************************************************************
+changed: [localhost]
+
+TASK [memcache : Install memcached] *********************************************************************
+changed: [localhost]
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure periodic unattended-upgrades] ************************************************
+skipping: [localhost]
+
+TASK [security : Disable unattended-upgrades if Xenial (16.04)] *****************************************
+skipping: [localhost] => (item=systemctl disable apt-daily.service) 
+skipping: [localhost] => (item=systemctl disable apt-daily.timer) 
+skipping: [localhost] => (item=systemctl disable apt-daily-upgrade.timer) 
+
+TASK [security : Disable unattended-upgrades] ***********************************************************
+skipping: [localhost]
+
+TASK [security : Only unattended-upgrade from security repo] ********************************************
+skipping: [localhost]
+
+TASK [security : Disable security only updates on unattended-upgrades] **********************************
+skipping: [localhost]
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=unattended-upgrade --dry-run) 
+skipping: [localhost] => (item=unattended-upgrade) 
+
+TASK [security : Install security packages] *************************************************************
+skipping: [localhost] => (item=[]) 
+
+TASK [security : Enable automatic start for update service] *********************************************
+skipping: [localhost]
+
+TASK [security : Update all system packages] ************************************************************
+skipping: [localhost]
+
+TASK [security : Configure security auto-updates] *******************************************************
+skipping: [localhost] => (item={u'regexp': u'^update_cmd', u'line': u'update_cmd = security'}) 
+skipping: [localhost] => (item={u'regexp': u'^apply_updates', u'line': u'apply_updates = yes'}) 
+
+TASK [security : Take security updates during ansible runs] *********************************************
+skipping: [localhost] => (item=yum check-update --security) 
+skipping: [localhost] => (item=yum update --security -y) 
+
+TASK [mount_ebs : Unmount disk if fstype is wrong] ******************************************************
+
+TASK [mount_ebs : Check that we don't want to unmount disks to change fstype when UNMOUNT_DISKS is false] ***
+skipping: [localhost] => (item={u'uuid': u'a54a15d6-a952-42fe-927b-dab1f5840cb2', u'size_total': 14662287360, u'mount': u'/', u'size_available': 8305324032, u'fstype': u'ext4', u'device': u'/dev/sda1', u'options': u'rw,relatime,errors=remount-ro,data=ordered'}) 
+skipping: [localhost] => (item={u'uuid': u'2019-01-25-18-58-44-77', u'size_total': 58433536, u'mount': u'/media/aditya/VBox_GAs_5.2.26', u'size_available': 0, u'fstype': u'iso9660', u'device': u'/dev/sr0', u'options': u'ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,mode=0400,dmode=0500'}) 
+
+TASK [mount_ebs : Create filesystem] ********************************************************************
+
+TASK [mount_ebs : Unmount disks mounted to the wrong place] *********************************************
+skipping: [localhost] => (item={u'uuid': u'a54a15d6-a952-42fe-927b-dab1f5840cb2', u'size_total': 14662287360, u'mount': u'/', u'size_available': 8305324032, u'fstype': u'ext4', u'device': u'/dev/sda1', u'options': u'rw,relatime,errors=remount-ro,data=ordered'}) 
+skipping: [localhost] => (item={u'uuid': u'2019-01-25-18-58-44-77', u'size_total': 58433536, u'mount': u'/media/aditya/VBox_GAs_5.2.26', u'size_available': 0, u'fstype': u'iso9660', u'device': u'/dev/sr0', u'options': u'ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,mode=0400,dmode=0500'}) 
+
+TASK [mount_ebs : Check that we don't want to unmount disks to change mountpoint when UNMOUNT_DISKS is false] ***
+skipping: [localhost] => (item={u'uuid': u'a54a15d6-a952-42fe-927b-dab1f5840cb2', u'size_total': 14662287360, u'mount': u'/', u'size_available': 8305324032, u'fstype': u'ext4', u'device': u'/dev/sda1', u'options': u'rw,relatime,errors=remount-ro,data=ordered'}) 
+skipping: [localhost] => (item={u'uuid': u'2019-01-25-18-58-44-77', u'size_total': 58433536, u'mount': u'/media/aditya/VBox_GAs_5.2.26', u'size_available': 0, u'fstype': u'iso9660', u'device': u'/dev/sr0', u'options': u'ro,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,mode=0400,dmode=0500'}) 
+
+TASK [mount_ebs : Mount disks] **************************************************************************
+
+TASK [mongo_3_2 : Add disable transparent huge pages systemd service (http://docs.mongodb.org/manual/tutorial/transparent-huge-pages/)] ***
+changed: [localhost]
+
+TASK [mongo_3_2 : Enable/start disable transparent huge pages service (http://docs.mongodb.org/manual/tutorial/transparent-huge-pages/)] ***
+changed: [localhost]
+
+TASK [mongo_3_2 : install python pymongo for mongo_user ansible module] *********************************
+ok: [localhost]
+
+TASK [mongo_3_2 : add the mongodb signing key] **********************************************************
+fatal: [localhost]: FAILED! => {"changed": false, "cmd": "/usr/bin/apt-key adv --keyserver keyserver.ubuntu.com --recv EA312927", "failed": true, "msg": "Error fetching key EA312927 from keyserver: keyserver.ubuntu.com", "rc": 2, "stderr": "gpg: requesting key EA312927 from hkp server keyserver.ubuntu.com\ngpg: keyserver timed out\ngpg: keyserver receive failed: keyserver error\n", "stderr_lines": ["gpg: requesting key EA312927 from hkp server keyserver.ubuntu.com", "gpg: keyserver timed out", "gpg: keyserver receive failed: keyserver error"], "stdout": "Executing: /tmp/tmp.5Y22P1LbEt/gpg.1.sh --keyserver\nkeyserver.ubuntu.com\n--recv\nEA312927\n", "stdout_lines": ["Executing: /tmp/tmp.5Y22P1LbEt/gpg.1.sh --keyserver", "keyserver.ubuntu.com", "--recv", "EA312927"]}
+	to retry, use: --limit @/var/tmp/configuration/playbooks/edx_sandbox.retry
+
+PLAY RECAP **********************************************************************************************
+localhost                  : ok=73   changed=49   unreachable=0    failed=1   
+
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Create Diffie-Hellman parameters to prevent weak key exchange ----------------- 4476.78s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: add the mongodb signing key --------------------------------------------------- 611.47s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install mysql-5.6 and dependencies -------------------------------------------- 204.08s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install role-independent useful system packages [0] ---------------------------- 94.56s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install packages needed for single server -------------------------------------- 89.56s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Add nginx repository ----------------------------------------------------------- 85.29s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install the nginx package ------------------------------------------------------ 74.18s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install debian packages user role needs ---------------------------------------- 72.59s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: Install memcached -------------------------------------------------------------- 70.68s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing: pip install virtualenv --------------------------------------------------------- 66.58s
+INFO:/var/tmp/configuration/playbooks/callback_plugins/task_timing:
+Playbook Configure instance(s) finished: 2019-05-23 11:19:02.109538, 169 total tasks.  1:50:04.055090 elapsed. 
+
+ 
+========================================
+Ansible failed!
+----------------------------------------
+If you need help, see https://open.edx.org/getting-help .
+When asking for help, please provide as much information as you can.
+These might be helpful:
+    Your log file is at logs/install-20190523-143801.log
+    Your environment:
+        VTE_VERSION=4205
+        OPENEDX_RELEASE=open-release/hawthorn.2
+========================================
+Installation finished at 2019-05-23 16:49:03
